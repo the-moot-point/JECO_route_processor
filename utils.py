@@ -4,6 +4,7 @@ Helper functions for date handling and data processing
 """
 
 from pathlib import Path
+from datetime import datetime
 import pandas as pd
 from typing import Dict, List, Optional
 import logging
@@ -44,6 +45,16 @@ class DateFormatter:
         except (IndexError, AttributeError) as e:
             logger.error(f"Error parsing date string '{date_str}': {e}")
             return {}
+
+    @staticmethod
+    def normalize_date(date_str: str) -> str:
+        """Convert a user-supplied date to M/D/YYYY format used in data files."""
+        try:
+            dt = datetime.strptime(date_str, "%B %d, %Y")
+            return f"{dt.month}/{dt.day}/{dt.year}"
+        except ValueError as e:
+            logger.error(f"Error normalizing date '{date_str}': {e}")
+            return date_str
 
     @staticmethod
     def format_for_trips_filename(date_str: str, route_num: int) -> str:

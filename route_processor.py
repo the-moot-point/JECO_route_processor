@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Any
 from dataclasses import dataclass, asdict
 from geopy.distance import distance
 import logging
+from utils import DateFormatter
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -129,7 +130,8 @@ class RouteDataLoader:
         """Get scheduled stops for a specific date and route"""
         # Load date conversions to get Phase and Day of Week
         date_conv_df = self.load_date_conversions()
-        date_info = date_conv_df[date_conv_df['Date'] == date_str]
+        normalized_date = DateFormatter.normalize_date(date_str)
+        date_info = date_conv_df[date_conv_df['Date'] == normalized_date]
 
         if date_info.empty:
             logger.error(f"Date {date_str} not found in date conversions table")
@@ -153,7 +155,9 @@ class RouteDataLoader:
         # Sort by sequence
         scheduled_stops = scheduled_stops.sort_values('Sequence').reset_index(drop=True)
 
-        logger.info(f"Found {len(scheduled_stops)} scheduled stops for RT{route_num} on {date_str}")
+        logger.info(
+            f"Found {len(scheduled_stops)} scheduled stops for RT{route_num} on {date_str}"
+        )
         return scheduled_stops
 
     def get_route_orders(self, date_str: str, route_num: int) -> pd.DataFrame:
@@ -167,8 +171,9 @@ class RouteDataLoader:
             return pd.DataFrame()
 
         # Filter for specific date and route
+        normalized_date = DateFormatter.normalize_date(date_str)
         route_orders = orders_df[
-            (orders_df['Date'] == date_str) &
+            (orders_df['Date'] == normalized_date) &
             (orders_df['Route Num'] == route_num)
         ].copy()
 
