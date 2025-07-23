@@ -42,7 +42,7 @@ def check_data_structure(data_dir: Path):
     required_files = {
         'Dates/DateConversionsTable.csv': 'Date conversions table',
         'Routes/Routes.csv': 'Route definitions',
-        'Stops/Stops  Copy.csv': 'Scheduled stops data'
+        'Stops/Stops.csv': 'Scheduled stops data'
     }
 
     all_good = True
@@ -150,7 +150,7 @@ def validate_sample_data():
                 print(f"✓ Routes.csv format OK ({len(df)} routes)")
 
         # Check Stops
-        stops_path = Path("./data/Stops/Stops  Copy.csv")
+        stops_path = Path("./data/Stops/Stops.csv")
         if stops_path.exists():
             df = pd.read_csv(stops_path)
             required_cols = ['Stop ID', 'Route Num', 'Phase', 'Day Of Week',
