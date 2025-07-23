@@ -198,3 +198,5 @@ Common issues:
    - Verify Phase and Day of Week combination exists
    - Check route number is correct
    - Ensure stops are marked as active ('Y' or 'Active')
+   - Confirm phase names ("One", "Two", etc.) match the numeric notation
+     ("1 Only", "2 Only", ...) used in `Stops.csv`

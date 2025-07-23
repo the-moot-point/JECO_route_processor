@@ -102,6 +102,29 @@ class RouteDataLoader:
             logger.warning(f"Trips file not found: {file_path}")
             return {"trips": []}
 
+    @staticmethod
+    def _normalize_phase(phase: str) -> str:
+        """Normalize phase names to a numeric form for comparison"""
+        if phase is None:
+            return ""
+        p = str(phase).strip().lower()
+        mapping = {
+            "one": "1",
+            "two": "2",
+            "three": "3",
+            "four": "4",
+            "1 only": "1",
+            "2 only": "2",
+            "3 only": "3",
+            "4 only": "4",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "all": "all",
+        }
+        return mapping.get(p, p)
+
     def get_scheduled_stops(self, date_str: str, route_num: int) -> pd.DataFrame:
         """Get scheduled stops for a specific date and route"""
         # Load date conversions to get Phase and Day of Week
@@ -113,14 +136,16 @@ class RouteDataLoader:
             return pd.DataFrame()
 
         phase = date_info.iloc[0]['Phase']
+        phase_norm = self._normalize_phase(phase)
         day_of_week = date_info.iloc[0]['Day Of Week']
 
         # Load all stops and filter
         all_stops_df = self.load_all_stops()
         active_col = all_stops_df['Active'].astype(str).str.lower()
+        stop_phase_norm = all_stops_df['Phase'].astype(str).apply(self._normalize_phase)
         scheduled_stops = all_stops_df[
             (all_stops_df['Route Num'] == route_num) &
-            (all_stops_df['Phase'] == phase) &
+            ((stop_phase_norm == phase_norm) | (stop_phase_norm == 'all')) &
             (all_stops_df['Day Of Week'] == day_of_week) &
             (active_col.isin(['y', 'active']))
         ].copy()
