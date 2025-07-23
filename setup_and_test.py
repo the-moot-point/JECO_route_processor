@@ -79,8 +79,7 @@ def test_basic_processing():
     print("\nTesting basic processing...")
 
     try:
-        from route_processor import RouteProcessor, RouteConfig
-        from utils import analyze_metadata_file
+        from jeco_route_processor import RouteProcessor, RouteConfig, analyze_metadata_file
 
         # Test configuration
         config = RouteConfig(

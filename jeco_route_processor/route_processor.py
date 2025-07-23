@@ -11,7 +11,7 @@ from typing import Dict, List, Optional, Any
 from dataclasses import dataclass, asdict
 from geopy.distance import distance
 import logging
-from utils import DateFormatter
+from .utils import DateFormatter
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

@@ -218,7 +218,7 @@ def run_batch_processing(data_dir: Path, routes: List[int], dates: List[str]):
         routes: List of route numbers to process
         dates: List of date strings to process
     """
-    from route_processor import RouteProcessor, RouteConfig
+    from .route_processor import RouteProcessor, RouteConfig
 
     results = []
 

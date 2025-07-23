@@ -4,8 +4,13 @@ Shows different ways to use the route processor
 """
 
 from pathlib import Path
-from route_processor import RouteProcessor, RouteConfig
-from utils import DateFormatter, analyze_metadata_file, run_batch_processing
+from jeco_route_processor import (
+    RouteProcessor,
+    RouteConfig,
+    DateFormatter,
+    analyze_metadata_file,
+    run_batch_processing,
+)
 import json
 
 
