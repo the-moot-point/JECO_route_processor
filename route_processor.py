@@ -117,11 +117,12 @@ class RouteDataLoader:
 
         # Load all stops and filter
         all_stops_df = self.load_all_stops()
+        active_col = all_stops_df['Active'].astype(str).str.lower()
         scheduled_stops = all_stops_df[
             (all_stops_df['Route Num'] == route_num) &
             (all_stops_df['Phase'] == phase) &
             (all_stops_df['Day Of Week'] == day_of_week) &
-            (all_stops_df['Active'] == 'Y')
+            (active_col.isin(['y', 'active']))
         ].copy()
 
         # Sort by sequence
