@@ -37,7 +37,7 @@ pip install pandas geopy
 
 ```python
 from pathlib import Path
-from route_processor import RouteProcessor, RouteConfig
+from jeco_route_processor import RouteProcessor, RouteConfig
 
 # Configure processing
 config = RouteConfig(
@@ -70,7 +70,7 @@ config = RouteConfig(
 
 Process multiple routes and dates:
 ```python
-from utils import run_batch_processing
+from jeco_route_processor import run_batch_processing
 
 routes = [600, 601, 602, 603, 604]
 dates = ["January 13, 2025", "January 14, 2025", "January 15, 2025"]
@@ -128,7 +128,7 @@ The generated metadata JSON includes:
 Use the utilities module to calculate route efficiency:
 
 ```python
-from utils import RouteStatistics, analyze_metadata_file
+from jeco_route_processor import RouteStatistics, analyze_metadata_file
 
 # Analyze a single route
 analyze_metadata_file(Path("./data/metadata/route_metadata_RT604_January_15_2025.json"))
@@ -144,7 +144,7 @@ stats = RouteStatistics.calculate_route_efficiency(metadata)
 The system includes validation checks:
 
 ```python
-from utils import DataValidator
+from jeco_route_processor import DataValidator
 
 # Validate stops data
 warnings = DataValidator.validate_stops_data(stops_df)
@@ -156,7 +156,7 @@ warnings = DataValidator.validate_trips_data(trips_data)
 ## Adding New Warehouses
 
 ```python
-from utils import WarehouseLocations
+from jeco_route_processor import WarehouseLocations
 
 WarehouseLocations.add_warehouse(
     location_name="Dallas",
