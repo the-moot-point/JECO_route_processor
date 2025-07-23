@@ -262,11 +262,16 @@ def analyze_metadata_file(metadata_path: Path):
     # Summary stats
     summary = metadata['summary']
     print("\n📈 Summary:")
-    print(f"  • Scheduled Stops: {summary['total_scheduled_stops']}")
-    print(
-        f"  • Stops Visited: {summary['stops_visited']} ({summary['stops_visited'] / summary['total_scheduled_stops'] * 100:.1f}%)")
-    print(
-        f"  • Orders Completed: {summary['stops_with_orders']} ({summary['stops_with_orders'] / summary['total_scheduled_stops'] * 100:.1f}%)")
+    total_scheduled = summary['total_scheduled_stops']
+    print(f"  • Scheduled Stops: {total_scheduled}")
+    if total_scheduled > 0:
+        visited_pct = summary['stops_visited'] / total_scheduled * 100
+        orders_pct = summary['stops_with_orders'] / total_scheduled * 100
+        print(f"  • Stops Visited: {summary['stops_visited']} ({visited_pct:.1f}%)")
+        print(f"  • Orders Completed: {summary['stops_with_orders']} ({orders_pct:.1f}%)")
+    else:
+        print(f"  • Stops Visited: {summary['stops_visited']} (0%)")
+        print(f"  • Orders Completed: {summary['stops_with_orders']} (0%)")
     print(f"  • Total Alerts: {summary['total_alerts']}")
     print(f"  • Unscheduled Stops: {summary['unscheduled_stops']}")
 
