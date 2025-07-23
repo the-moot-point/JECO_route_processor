@@ -17,7 +17,7 @@ data/
 ├── Routes/
 │   └── Routes.csv                  # Route definitions and warehouse locations
 ├── Stops/
-│   └── Stops  Copy.csv             # All scheduled stops for all routes
+│   └── Stops.csv             # All scheduled stops for all routes
 ├── Trips/
 │   └── Trips RT [num] [Mon YY].json # GPS tracking data
 └── metadata/
