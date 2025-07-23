@@ -197,4 +197,4 @@ Common issues:
 3. **Empty scheduled stops**
    - Verify Phase and Day of Week combination exists
    - Check route number is correct
-   - Ensure stops are marked as Active='Y'
+   - Ensure stops are marked as active ('Y' or 'Active')
