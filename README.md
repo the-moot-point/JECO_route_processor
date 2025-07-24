@@ -24,14 +24,37 @@ data/
     └── route_metadata_*.json       # Generated output files
 ```
 
+Sample datasets used for the unit tests are located under `tests/fixtures/`.
+You can copy that directory to `./data` or point the `RouteConfig` to your own
+files following the same layout.
+
 ## Installation
 
-Required Python packages:
+The package requires Python 3.10 or newer.  Install the dependencies and the
+package itself in editable mode using the provided `requirements.txt`:
+
 ```bash
-pip install pandas geopy
+pip install -r requirements.txt
+pip install -e .
+```
+
+This installs **pandas**, **geopy** and other optional tools such as
+**folium** used in the example notebook and test script.
+
+### Quick check
+
+After installing the dependencies you can run `setup_and_test.py` to verify
+that the sample data is present and that processing works end-to-end:
+
+```bash
+python setup_and_test.py
 ```
 
 ## Usage
+
+The repository ships with an `example_usage.py` script showcasing several common
+scenarios such as batch processing and generating summary reports.  Run it after
+setting up the data to explore the functionality.
 
 ### Basic Usage
 
