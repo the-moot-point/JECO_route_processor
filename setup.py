@@ -26,6 +26,7 @@ PYTHON_REQUIRES = ">=3.10"
 # Core/runtime dependencies (edit as required)
 INSTALL_REQUIRES = [
     "pandas>=1.5",
+    "scipy>=1.10",
     # "numpy>=1.23",     # uncomment / adjust if you need it
 ]
 

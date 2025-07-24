@@ -100,7 +100,9 @@ class WarehouseLocations:
         return cls.WAREHOUSES.get(location_name)
 
     @classmethod
-    def add_warehouse(cls, location_name: str, name: str, lat: float, lon: float, address: str):
+    def add_warehouse(
+        cls, location_name: str, name: str, lat: float, lon: float, address: str
+    ) -> None:
         """Add a new warehouse location"""
         cls.WAREHOUSES[location_name] = {
             'name': name,
@@ -244,7 +246,9 @@ class RouteStatistics:
         }
 
 
-def run_batch_processing(data_dir: Path, routes: List[int], dates: List[str]):
+def run_batch_processing(
+    data_dir: Path, routes: List[int], dates: List[str]
+) -> List[Dict]:
     """
     Process multiple routes and dates in batch
 
@@ -284,7 +288,7 @@ def run_batch_processing(data_dir: Path, routes: List[int], dates: List[str]):
     return results
 
 
-def analyze_metadata_file(metadata_path: Path):
+def analyze_metadata_file(metadata_path: Path) -> None:
     """Load and analyze a metadata file, printing key statistics"""
     import json
 

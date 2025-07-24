@@ -485,7 +485,7 @@ class RouteProcessor:
         return warehouse_coords.get(location_str, Location(0, 0))
 
 
-def main():
+def main() -> None:
     """Main entry point"""
     # Example usage
     config = RouteConfig(
