@@ -268,10 +268,16 @@ class RouteAnalyzer:
                     # Determine the appropriate key prefix based on location type
                     prefix = 'end' if location_type == 'arrival' else 'start'
 
+                    # address info may be missing; fall back to the raw location
+                    address_obj = trip.get(
+                        f'{prefix}Address',
+                        {'name': trip.get(f'{prefix}Location')}
+                    )
+
                     unscheduled_stops.append({
                         'type': location_type,
                         'location': asdict(trip_loc),
-                        'address': trip[f'{prefix}Address'],
+                        'address': address_obj,
                         'time_ms': trip[f'{prefix}Ms'],
                         'nearest_scheduled_distance': min_distance
                     })
@@ -280,9 +286,9 @@ class RouteAnalyzer:
                         type='unscheduled_stop',
                         severity='low',
                         location=trip_loc,
-                        description=f"Unscheduled {location_type} at {trip[f'{prefix}Address']['name']}",
+                        description=f"Unscheduled {location_type} at {address_obj['name']}",
                         details={
-                            'address': trip[f'{prefix}Address']['name'],
+                            'address': address_obj['name'],
                             'nearest_scheduled_distance': min_distance
                         }
                     ))
@@ -294,6 +300,9 @@ class RouteAnalyzer:
         visits = []
 
         for trip in trips:
+            start_name = trip.get('startAddress', {}).get('name', trip.get('startLocation'))
+            end_name = trip.get('endAddress', {}).get('name', trip.get('endLocation'))
+
             # Check start location
             start_loc = Location(
                 trip['startCoordinates']['latitude'],
@@ -303,7 +312,7 @@ class RouteAnalyzer:
                 visits.append({
                     'type': 'departure',
                     'time_ms': trip['startMs'],
-                    'address': trip['startAddress']['name'],
+                    'address': start_name,
                     'distance_meters': stop_loc.distance_to(start_loc)
                 })
 
@@ -316,7 +325,7 @@ class RouteAnalyzer:
                 visits.append({
                     'type': 'arrival',
                     'time_ms': trip['endMs'],
-                    'address': trip['endAddress']['name'],
+                    'address': end_name,
                     'distance_meters': stop_loc.distance_to(end_loc)
                 })
 
