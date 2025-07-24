@@ -1,0 +1,4274 @@
+{
+  "trips": [
+    {
+      "startMs": 1738577512999,
+      "endMs": 1738578487023,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20052264,
+        "longitude": -97.71592623
+      },
+      "endCoordinates": {
+        "latitude": 30.23716468,
+        "longitude": -97.72228624
+      },
+      "distanceMeters": 5579,
+      "fuelConsumedMl": 1182,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738587294042,
+      "endMs": 1738587844031,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23718892,
+        "longitude": -97.72233683
+      },
+      "endCoordinates": {
+        "latitude": 30.25883801,
+        "longitude": -97.71203748
+      },
+      "distanceMeters": 3599,
+      "fuelConsumedMl": 643,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738591213017,
+      "endMs": 1738592427005,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Vaughan Street, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.25887447,
+        "longitude": -97.71206143
+      },
+      "endCoordinates": {
+        "latitude": 30.300469509,
+        "longitude": -97.69816584
+      },
+      "distanceMeters": 6971,
+      "fuelConsumedMl": 1535,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738597516034,
+      "endMs": 1738598144016,
+      "startLocation": "Philomena Street, Austin, TX",
+      "endLocation": "Turner Lane, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.30045335,
+        "longitude": -97.69818807
+      },
+      "endCoordinates": {
+        "latitude": 30.31182672,
+        "longitude": -97.66510778
+      },
+      "distanceMeters": 4432,
+      "fuelConsumedMl": 774,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738600648017,
+      "endMs": 1738601290013,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.311841759,
+        "longitude": -97.66510457
+      },
+      "endCoordinates": {
+        "latitude": 30.30110271,
+        "longitude": -97.71975643
+      },
+      "distanceMeters": 8466,
+      "fuelConsumedMl": 1594,
+      "tollMeters": 109,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738606174013,
+      "endMs": 1738607456004,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30115849,
+        "longitude": -97.71978917
+      },
+      "endCoordinates": {
+        "latitude": 30.200404689,
+        "longitude": -97.715938809
+      },
+      "distanceMeters": 15872,
+      "fuelConsumedMl": 2703,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738664122868,
+      "endMs": 1738664774010,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20044952,
+        "longitude": -97.71601244
+      },
+      "endCoordinates": {
+        "latitude": 30.22142984,
+        "longitude": -97.75336563
+      },
+      "distanceMeters": 6616,
+      "fuelConsumedMl": 1475,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738671013026,
+      "endMs": 1738671580029,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22146186,
+        "longitude": -97.75331221
+      },
+      "endCoordinates": {
+        "latitude": 30.23819475,
+        "longitude": -97.75496546
+      },
+      "distanceMeters": 3291,
+      "fuelConsumedMl": 565,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738678969042,
+      "endMs": 1738680721004,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Ranch Road 1826, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.23820788,
+        "longitude": -97.75493527
+      },
+      "endCoordinates": {
+        "latitude": 30.226456299,
+        "longitude": -97.887012539
+      },
+      "distanceMeters": 17697,
+      "fuelConsumedMl": 3370,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738684850020,
+      "endMs": 1738685704011,
+      "startLocation": "Twilight Mesa Drive, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22640596,
+        "longitude": -97.88701686
+      },
+      "endCoordinates": {
+        "latitude": 30.21674425,
+        "longitude": -97.830523
+      },
+      "distanceMeters": 9357,
+      "fuelConsumedMl": 1344,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738689352024,
+      "endMs": 1738689797020,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.21674118,
+        "longitude": -97.83050882
+      },
+      "endCoordinates": {
+        "latitude": 30.23160424,
+        "longitude": -97.82248188
+      },
+      "distanceMeters": 3461,
+      "fuelConsumedMl": 593,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738693293088,
+      "endMs": 1738693344036,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.23159879,
+        "longitude": -97.82244565
+      },
+      "endCoordinates": {
+        "latitude": 30.2319131,
+        "longitude": -97.82193431
+      },
+      "distanceMeters": 80,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738694047034,
+      "endMs": 1738694852022,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23193489,
+        "longitude": -97.82188405
+      },
+      "endCoordinates": {
+        "latitude": 30.20034288,
+        "longitude": -97.715739929
+      },
+      "distanceMeters": 12822,
+      "fuelConsumedMl": 2388,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738750771023,
+      "endMs": 1738751349014,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20050832,
+        "longitude": -97.71601257
+      },
+      "endCoordinates": {
+        "latitude": 30.23716126,
+        "longitude": -97.722295059
+      },
+      "distanceMeters": 5555,
+      "fuelConsumedMl": 845,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738759472172,
+      "endMs": 1738761910031,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Hasler Boulevard, Bastrop, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.237196189,
+        "longitude": -97.722333669
+      },
+      "endCoordinates": {
+        "latitude": 30.11027099,
+        "longitude": -97.33328475
+      },
+      "distanceMeters": 42989,
+      "fuelConsumedMl": 6976,
+      "tollMeters": 3033,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738764452028,
+      "endMs": 1738764491017,
+      "startLocation": "Hasler Boulevard, Bastrop, TX",
+      "endLocation": "Old Austin Highway, Bastrop, TX",
+      "startAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.1102768,
+        "longitude": -97.33330374
+      },
+      "endCoordinates": {
+        "latitude": 30.11045275,
+        "longitude": -97.333613189
+      },
+      "distanceMeters": 44,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738769720025,
+      "endMs": 1738769893023,
+      "startLocation": "Hasler Boulevard, Bastrop, TX",
+      "endLocation": "Agnes Street, Bastrop, TX",
+      "startAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.11025617,
+        "longitude": -97.333509619
+      },
+      "endCoordinates": {
+        "latitude": 30.10413118,
+        "longitude": -97.33141478
+      },
+      "distanceMeters": 936,
+      "fuelConsumedMl": 204,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738774988018,
+      "endMs": 1738777158000,
+      "startLocation": "Agnes Street, Bastrop, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.10413205,
+        "longitude": -97.33141413
+      },
+      "endCoordinates": {
+        "latitude": 30.20071584,
+        "longitude": -97.71570739
+      },
+      "distanceMeters": 43079,
+      "fuelConsumedMl": 8375,
+      "tollMeters": 2769,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738836784571,
+      "endMs": 1738837593025,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20050169,
+        "longitude": -97.71587819
+      },
+      "endCoordinates": {
+        "latitude": 30.23713417,
+        "longitude": -97.72223409
+      },
+      "distanceMeters": 5587,
+      "fuelConsumedMl": 1148,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738844775014,
+      "endMs": 1738845379029,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23712236,
+        "longitude": -97.72225661
+      },
+      "endCoordinates": {
+        "latitude": 30.25895866,
+        "longitude": -97.71220655
+      },
+      "distanceMeters": 3613,
+      "fuelConsumedMl": 665,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738847388293,
+      "endMs": 1738847432031,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.25893334,
+        "longitude": -97.71221735
+      },
+      "endCoordinates": {
+        "latitude": 30.25891229,
+        "longitude": -97.71225361
+      },
+      "distanceMeters": 15,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738849987178,
+      "endMs": 1738851173030,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Vaughan Street, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.258923,
+        "longitude": -97.71225348
+      },
+      "endCoordinates": {
+        "latitude": 30.30045901,
+        "longitude": -97.69816106
+      },
+      "distanceMeters": 6964,
+      "fuelConsumedMl": 1523,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738855047020,
+      "endMs": 1738855674025,
+      "startLocation": "Vaughan Street, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.30046511,
+        "longitude": -97.69815979
+      },
+      "endCoordinates": {
+        "latitude": 30.31194871,
+        "longitude": -97.665270399
+      },
+      "distanceMeters": 4394,
+      "fuelConsumedMl": 644,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738858876016,
+      "endMs": 1738859508038,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.311980009,
+        "longitude": -97.6652057
+      },
+      "endCoordinates": {
+        "latitude": 30.30119734,
+        "longitude": -97.71974539
+      },
+      "distanceMeters": 8412,
+      "fuelConsumedMl": 1399,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738864432010,
+      "endMs": 1738865581046,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30120746,
+        "longitude": -97.71981955
+      },
+      "endCoordinates": {
+        "latitude": 30.20062729,
+        "longitude": -97.71608977
+      },
+      "distanceMeters": 15730,
+      "fuelConsumedMl": 2395,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738923260421,
+      "endMs": 1738923788015,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.200537919,
+        "longitude": -97.716126619
+      },
+      "endCoordinates": {
+        "latitude": 30.22143299,
+        "longitude": -97.75335063
+      },
+      "distanceMeters": 6647,
+      "fuelConsumedMl": 1110,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738930531031,
+      "endMs": 1738930995013,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22142529,
+        "longitude": -97.75328564
+      },
+      "endCoordinates": {
+        "latitude": 30.23815283,
+        "longitude": -97.754768679
+      },
+      "distanceMeters": 3675,
+      "fuelConsumedMl": 684,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738936185058,
+      "endMs": 1738936477023,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "East Ben White Boulevard, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 23570033,
+        "name": "MR ZIP #603",
+        "address": "3909 S CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.23814232,
+        "longitude": -97.754772149
+      },
+      "endCoordinates": {
+        "latitude": 30.22347448,
+        "longitude": -97.76308193
+      },
+      "distanceMeters": 1889,
+      "fuelConsumedMl": 318,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738937467022,
+      "endMs": 1738937493004,
+      "startLocation": "East Ben White Boulevard, Austin, TX",
+      "endLocation": "East Ben White Boulevard, Austin, TX",
+      "startAddress": {
+        "id": 23570033,
+        "name": "MR ZIP #603",
+        "address": "3909 S CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 23570033,
+        "name": "MR ZIP #603",
+        "address": "3909 S CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.223466389,
+        "longitude": -97.76315235
+      },
+      "endCoordinates": {
+        "latitude": 30.22341153,
+        "longitude": -97.76303175
+      },
+      "distanceMeters": 14,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738937969016,
+      "endMs": 1738939728016,
+      "startLocation": "East Ben White Boulevard, Austin, TX",
+      "endLocation": "Twilight Mesa Drive, Austin, TX",
+      "startAddress": {
+        "id": 23570033,
+        "name": "MR ZIP #603",
+        "address": "3909 S CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.223448139,
+        "longitude": -97.76291623
+      },
+      "endCoordinates": {
+        "latitude": 30.22639431,
+        "longitude": -97.88705091
+      },
+      "distanceMeters": 17172,
+      "fuelConsumedMl": 3242,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738943686030,
+      "endMs": 1738944740009,
+      "startLocation": "Twilight Mesa Drive, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22638279,
+        "longitude": -97.8869816
+      },
+      "endCoordinates": {
+        "latitude": 30.21678792,
+        "longitude": -97.83035293
+      },
+      "distanceMeters": 9344,
+      "fuelConsumedMl": 1512,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738948056028,
+      "endMs": 1738948495015,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.21678454,
+        "longitude": -97.83036502
+      },
+      "endCoordinates": {
+        "latitude": 30.23172619,
+        "longitude": -97.822359899
+      },
+      "distanceMeters": 3560,
+      "fuelConsumedMl": 610,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738951935036,
+      "endMs": 1738952490009,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.23162114,
+        "longitude": -97.822403789
+      },
+      "endCoordinates": {
+        "latitude": 30.232135169,
+        "longitude": -97.82208007
+      },
+      "distanceMeters": 918,
+      "fuelConsumedMl": 317,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738953281263,
+      "endMs": 1738954142022,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23214452,
+        "longitude": -97.82206747
+      },
+      "endCoordinates": {
+        "latitude": 30.2007474,
+        "longitude": -97.715816649
+      },
+      "distanceMeters": 12994,
+      "fuelConsumedMl": 2186,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739111004668,
+      "endMs": 1739111055532,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20063814,
+        "longitude": -97.71603456
+      },
+      "endCoordinates": {
+        "latitude": 30.200637789,
+        "longitude": -97.71625278
+      },
+      "distanceMeters": 47,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 50785921,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739118681020,
+      "endMs": 1739118732002,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.200525549,
+        "longitude": -97.71617103
+      },
+      "endCoordinates": {
+        "latitude": 30.200409799,
+        "longitude": -97.715772259
+      },
+      "distanceMeters": 65,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 50785921,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739182726020,
+      "endMs": 1739183536099,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Inks Avenue, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20052807,
+        "longitude": -97.71605149
+      },
+      "endCoordinates": {
+        "latitude": 30.2659847,
+        "longitude": -97.72795781
+      },
+      "distanceMeters": 11910,
+      "fuelConsumedMl": 2575,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739183981038,
+      "endMs": 1739184784022,
+      "startLocation": "Inks Avenue, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.26598505,
+        "longitude": -97.72796014
+      },
+      "endCoordinates": {
+        "latitude": 30.23714827,
+        "longitude": -97.72225372
+      },
+      "distanceMeters": 11445,
+      "fuelConsumedMl": 1936,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739190932022,
+      "endMs": 1739191443026,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23721289,
+        "longitude": -97.72225407
+      },
+      "endCoordinates": {
+        "latitude": 30.25886002,
+        "longitude": -97.71200772
+      },
+      "distanceMeters": 3560,
+      "fuelConsumedMl": 576,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739194214031,
+      "endMs": 1739195307015,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Vaughan Street, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.25885765,
+        "longitude": -97.711984619
+      },
+      "endCoordinates": {
+        "latitude": 30.3004839,
+        "longitude": -97.69819288
+      },
+      "distanceMeters": 6902,
+      "fuelConsumedMl": 1559,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739201557028,
+      "endMs": 1739202126037,
+      "startLocation": "Philomena Street, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.300404159,
+        "longitude": -97.69821635
+      },
+      "endCoordinates": {
+        "latitude": 30.31192572,
+        "longitude": -97.66521877
+      },
+      "distanceMeters": 4327,
+      "fuelConsumedMl": 780,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739204923029,
+      "endMs": 1739205538044,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.31191859,
+        "longitude": -97.66530147
+      },
+      "endCoordinates": {
+        "latitude": 30.30119592,
+        "longitude": -97.71977284
+      },
+      "distanceMeters": 8387,
+      "fuelConsumedMl": 1544,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739209403021,
+      "endMs": 1739210772024,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30115689,
+        "longitude": -97.71975325
+      },
+      "endCoordinates": {
+        "latitude": 30.20041534,
+        "longitude": -97.715659979
+      },
+      "distanceMeters": 15899,
+      "fuelConsumedMl": 2722,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739268806866,
+      "endMs": 1739269494021,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20061382,
+        "longitude": -97.71607434
+      },
+      "endCoordinates": {
+        "latitude": 30.22145147,
+        "longitude": -97.75333282
+      },
+      "distanceMeters": 6651,
+      "fuelConsumedMl": 1412,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739274676033,
+      "endMs": 1739274975128,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22144946,
+        "longitude": -97.75333863
+      },
+      "endCoordinates": {
+        "latitude": 30.2381837,
+        "longitude": -97.75479264
+      },
+      "distanceMeters": 3281,
+      "fuelConsumedMl": 442,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739282353034,
+      "endMs": 1739282420018,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.23821351,
+        "longitude": -97.754795979
+      },
+      "endCoordinates": {
+        "latitude": 30.238189259,
+        "longitude": -97.75481495
+      },
+      "distanceMeters": 39,
+      "fuelConsumedMl": 78,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739282895019,
+      "endMs": 1739284464031,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Ranch Road 1826, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.238171669,
+        "longitude": -97.75488316
+      },
+      "endCoordinates": {
+        "latitude": 30.22645876,
+        "longitude": -97.88698025
+      },
+      "distanceMeters": 17720,
+      "fuelConsumedMl": 3246,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739288404023,
+      "endMs": 1739289179026,
+      "startLocation": "Twilight Mesa Drive, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22641325,
+        "longitude": -97.886996589
+      },
+      "endCoordinates": {
+        "latitude": 30.2167882,
+        "longitude": -97.83046689
+      },
+      "distanceMeters": 9346,
+      "fuelConsumedMl": 1308,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739293250025,
+      "endMs": 1739293693021,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.2167251,
+        "longitude": -97.83040438
+      },
+      "endCoordinates": {
+        "latitude": 30.23169299,
+        "longitude": -97.822386449
+      },
+      "distanceMeters": 3545,
+      "fuelConsumedMl": 625,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739298908030,
+      "endMs": 1739299820018,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23167838,
+        "longitude": -97.8224424
+      },
+      "endCoordinates": {
+        "latitude": 30.200501509,
+        "longitude": -97.71596245
+      },
+      "distanceMeters": 12807,
+      "fuelConsumedMl": 1748,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739355628516,
+      "endMs": 1739356469016,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Town Lake Circle, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20057119,
+        "longitude": -97.71610843
+      },
+      "endCoordinates": {
+        "latitude": 30.237327119,
+        "longitude": -97.72250999
+      },
+      "distanceMeters": 5792,
+      "fuelConsumedMl": 1206,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739363193021,
+      "endMs": 1739365194015,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Old Austin Highway, Bastrop, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.23719995,
+        "longitude": -97.72230681
+      },
+      "endCoordinates": {
+        "latitude": 30.11041844,
+        "longitude": -97.33367623
+      },
+      "distanceMeters": 42887,
+      "fuelConsumedMl": 6452,
+      "tollMeters": 2793,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739373403019,
+      "endMs": 1739373809006,
+      "startLocation": "Old Austin Highway, Bastrop, TX",
+      "endLocation": "Agnes Street, Bastrop, TX",
+      "startAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.11044744,
+        "longitude": -97.33365329
+      },
+      "endCoordinates": {
+        "latitude": 30.10408097,
+        "longitude": -97.33153709
+      },
+      "distanceMeters": 1090,
+      "fuelConsumedMl": 370,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739377671021,
+      "endMs": 1739379678011,
+      "startLocation": "Agnes Street, Bastrop, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.10406558,
+        "longitude": -97.33151674
+      },
+      "endCoordinates": {
+        "latitude": 30.200338819,
+        "longitude": -97.71588017
+      },
+      "distanceMeters": 43012,
+      "fuelConsumedMl": 8867,
+      "tollMeters": 3121,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739441810425,
+      "endMs": 1739442481029,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20059127,
+        "longitude": -97.71604872
+      },
+      "endCoordinates": {
+        "latitude": 30.23721006,
+        "longitude": -97.72229049
+      },
+      "distanceMeters": 5557,
+      "fuelConsumedMl": 1061,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739449688018,
+      "endMs": 1739450583022,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.237149689,
+        "longitude": -97.722266219
+      },
+      "endCoordinates": {
+        "latitude": 30.25888819,
+        "longitude": -97.712235059
+      },
+      "distanceMeters": 3701,
+      "fuelConsumedMl": 837,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739452908023,
+      "endMs": 1739454079023,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Philomena Street, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.25890201,
+        "longitude": -97.71222528
+      },
+      "endCoordinates": {
+        "latitude": 30.30041436,
+        "longitude": -97.69817419
+      },
+      "distanceMeters": 7008,
+      "fuelConsumedMl": 1668,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739459687022,
+      "endMs": 1739460211032,
+      "startLocation": "Vaughan Street, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.3005079,
+        "longitude": -97.698200979
+      },
+      "endCoordinates": {
+        "latitude": 30.31193504,
+        "longitude": -97.665239679
+      },
+      "distanceMeters": 4095,
+      "fuelConsumedMl": 685,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739463680021,
+      "endMs": 1739464264028,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.31202086,
+        "longitude": -97.66526352
+      },
+      "endCoordinates": {
+        "latitude": 30.30117824,
+        "longitude": -97.71977224
+      },
+      "distanceMeters": 8408,
+      "fuelConsumedMl": 1596,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739468119067,
+      "endMs": 1739468347013,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.301178,
+        "longitude": -97.71983105
+      },
+      "endCoordinates": {
+        "latitude": 30.30118937,
+        "longitude": -97.71983072
+      },
+      "distanceMeters": 71,
+      "fuelConsumedMl": 191,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739469047032,
+      "endMs": 1739470477007,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30128933,
+        "longitude": -97.71983951
+      },
+      "endCoordinates": {
+        "latitude": 30.20035645,
+        "longitude": -97.7158646
+      },
+      "distanceMeters": 15887,
+      "fuelConsumedMl": 2465,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739528042973,
+      "endMs": 1739528556032,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20046339,
+        "longitude": -97.71596916
+      },
+      "endCoordinates": {
+        "latitude": 30.22151082,
+        "longitude": -97.753331479
+      },
+      "distanceMeters": 6271,
+      "fuelConsumedMl": 1271,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739533189020,
+      "endMs": 1739533493011,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.221506569,
+        "longitude": -97.75332068
+      },
+      "endCoordinates": {
+        "latitude": 30.23815102,
+        "longitude": -97.75483317
+      },
+      "distanceMeters": 3375,
+      "fuelConsumedMl": 506,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739537007273,
+      "endMs": 1739538439013,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Twilight Mesa Drive, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.238140949,
+        "longitude": -97.75480609
+      },
+      "endCoordinates": {
+        "latitude": 30.226403709,
+        "longitude": -97.88706569
+      },
+      "distanceMeters": 17702,
+      "fuelConsumedMl": 3540,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739540383032,
+      "endMs": 1739541116097,
+      "startLocation": "Ranch Road 1826, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22642347,
+        "longitude": -97.8870769
+      },
+      "endCoordinates": {
+        "latitude": 30.21688946,
+        "longitude": -97.83028969
+      },
+      "distanceMeters": 7077,
+      "fuelConsumedMl": 1029,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739543376031,
+      "endMs": 1739543854014,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.21683424,
+        "longitude": -97.83033293
+      },
+      "endCoordinates": {
+        "latitude": 30.23172021,
+        "longitude": -97.82231288
+      },
+      "distanceMeters": 3486,
+      "fuelConsumedMl": 563,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739547639029,
+      "endMs": 1739548359027,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.231901749,
+        "longitude": -97.8220938
+      },
+      "endCoordinates": {
+        "latitude": 30.20047553,
+        "longitude": -97.71594403
+      },
+      "distanceMeters": 12866,
+      "fuelConsumedMl": 2061,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739789795630,
+      "endMs": 1739790339027,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20052829,
+        "longitude": -97.71599369
+      },
+      "endCoordinates": {
+        "latitude": 30.237163939,
+        "longitude": -97.72226094
+      },
+      "distanceMeters": 5536,
+      "fuelConsumedMl": 1253,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739793099080,
+      "endMs": 1739793510014,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23711742,
+        "longitude": -97.72223324
+      },
+      "endCoordinates": {
+        "latitude": 30.25893409,
+        "longitude": -97.71205144
+      },
+      "distanceMeters": 3570,
+      "fuelConsumedMl": 611,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739796942019,
+      "endMs": 1739797767028,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.25888313,
+        "longitude": -97.712083179
+      },
+      "endCoordinates": {
+        "latitude": 30.31215951,
+        "longitude": -97.66532617
+      },
+      "distanceMeters": 12341,
+      "fuelConsumedMl": 2322,
+      "tollMeters": 7073,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739800857022,
+      "endMs": 1739801242043,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Vaughan Street, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.312102769,
+        "longitude": -97.66530395
+      },
+      "endCoordinates": {
+        "latitude": 30.30046438,
+        "longitude": -97.69804224
+      },
+      "distanceMeters": 4024,
+      "fuelConsumedMl": 660,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739803989031,
+      "endMs": 1739804490085,
+      "startLocation": "Vaughan Street, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.30048618,
+        "longitude": -97.69804437
+      },
+      "endCoordinates": {
+        "latitude": 30.301285509,
+        "longitude": -97.71974996
+      },
+      "distanceMeters": 3652,
+      "fuelConsumedMl": 643,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739807843034,
+      "endMs": 1739808806018,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Burleson Road, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 23571269,
+        "name": "OASIS (BURLESON)",
+        "address": "6311 BURLESON RD, AUSTIN, TX 78744"
+      },
+      "startCoordinates": {
+        "latitude": 30.30125601,
+        "longitude": -97.719817969
+      },
+      "endCoordinates": {
+        "latitude": 30.20488404,
+        "longitude": -97.716116279
+      },
+      "distanceMeters": 15039,
+      "fuelConsumedMl": 2333,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739809114262,
+      "endMs": 1739809252029,
+      "startLocation": "Burleson Road, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23571269,
+        "name": "OASIS (BURLESON)",
+        "address": "6311 BURLESON RD, AUSTIN, TX 78744"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20484172,
+        "longitude": -97.71618171
+      },
+      "endCoordinates": {
+        "latitude": 30.20037069,
+        "longitude": -97.7158381
+      },
+      "distanceMeters": 801,
+      "fuelConsumedMl": 201,
+      "tollMeters": 0,
+      "driverId": 29531161,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739875047147,
+      "endMs": 1739875755072,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20056713,
+        "longitude": -97.71598701
+      },
+      "endCoordinates": {
+        "latitude": 30.22145337,
+        "longitude": -97.753283589
+      },
+      "distanceMeters": 6611,
+      "fuelConsumedMl": 1480,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739881729031,
+      "endMs": 1739881797036,
+      "startLocation": "Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22143911,
+        "longitude": -97.75334574
+      },
+      "endCoordinates": {
+        "latitude": 30.22150522,
+        "longitude": -97.753393179
+      },
+      "distanceMeters": 22,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739882132019,
+      "endMs": 1739882498027,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22142212,
+        "longitude": -97.75331751
+      },
+      "endCoordinates": {
+        "latitude": 30.23818413,
+        "longitude": -97.75493516
+      },
+      "distanceMeters": 3303,
+      "fuelConsumedMl": 391,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739887810029,
+      "endMs": 1739889724011,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Twilight Mesa Drive, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.23818732,
+        "longitude": -97.75485082
+      },
+      "endCoordinates": {
+        "latitude": 30.22638264,
+        "longitude": -97.887029729
+      },
+      "distanceMeters": 17780,
+      "fuelConsumedMl": 3214,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739895422036,
+      "endMs": 1739896180010,
+      "startLocation": "Twilight Mesa Drive, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22636738,
+        "longitude": -97.88692417
+      },
+      "endCoordinates": {
+        "latitude": 30.21673747,
+        "longitude": -97.83056959
+      },
+      "distanceMeters": 9350,
+      "fuelConsumedMl": 1322,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739899069033,
+      "endMs": 1739899722030,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.21671505,
+        "longitude": -97.83049074
+      },
+      "endCoordinates": {
+        "latitude": 30.23161308,
+        "longitude": -97.8223931
+      },
+      "distanceMeters": 3668,
+      "fuelConsumedMl": 714,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739903515022,
+      "endMs": 1739903579020,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.231654729,
+        "longitude": -97.82242646
+      },
+      "endCoordinates": {
+        "latitude": 30.23164586,
+        "longitude": -97.82246192
+      },
+      "distanceMeters": 16,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739904467021,
+      "endMs": 1739905018015,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "East Ben White Boulevard, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.23166729,
+        "longitude": -97.82242719
+      },
+      "endCoordinates": {
+        "latitude": 30.21365129,
+        "longitude": -97.72799822
+      },
+      "distanceMeters": 9808,
+      "fuelConsumedMl": 1506,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739906159028,
+      "endMs": 1739906525021,
+      "startLocation": "East Ben White Boulevard, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.21357761,
+        "longitude": -97.72793407
+      },
+      "endCoordinates": {
+        "latitude": 30.20025679,
+        "longitude": -97.71592267
+      },
+      "distanceMeters": 2529,
+      "fuelConsumedMl": 385,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739961281415,
+      "endMs": 1739962263023,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.200493909,
+        "longitude": -97.71591174
+      },
+      "endCoordinates": {
+        "latitude": 30.23720397,
+        "longitude": -97.72228633
+      },
+      "distanceMeters": 5675,
+      "fuelConsumedMl": 1092,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739968270017,
+      "endMs": 1739970417060,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Old Austin Highway, Bastrop, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.237215419,
+        "longitude": -97.72229232
+      },
+      "endCoordinates": {
+        "latitude": 30.11045024,
+        "longitude": -97.33362495
+      },
+      "distanceMeters": 43051,
+      "fuelConsumedMl": 8228,
+      "tollMeters": 2883,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739978213015,
+      "endMs": 1739978517019,
+      "startLocation": "Old Austin Highway, Bastrop, TX",
+      "endLocation": "Hidden Springs Drive, Bastrop, TX",
+      "startAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.11042794,
+        "longitude": -97.33364342
+      },
+      "endCoordinates": {
+        "latitude": 30.10251906,
+        "longitude": -97.3321451
+      },
+      "distanceMeters": 1184,
+      "fuelConsumedMl": 299,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739983231016,
+      "endMs": 1739983295009,
+      "startLocation": "Hidden Springs Drive, Bastrop, TX",
+      "endLocation": "Hidden Springs Drive, Bastrop, TX",
+      "startAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.10259672,
+        "longitude": -97.33211731
+      },
+      "endCoordinates": {
+        "latitude": 30.1025719,
+        "longitude": -97.33208682
+      },
+      "distanceMeters": 12,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1739983721046,
+      "endMs": 1739985872020,
+      "startLocation": "Hidden Springs Drive, Bastrop, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.10256209,
+        "longitude": -97.332121619
+      },
+      "endCoordinates": {
+        "latitude": 30.200456689,
+        "longitude": -97.71571861
+      },
+      "distanceMeters": 42960,
+      "fuelConsumedMl": 9879,
+      "tollMeters": 3244,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740046680312,
+      "endMs": 1740047568016,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20048413,
+        "longitude": -97.71600718
+      },
+      "endCoordinates": {
+        "latitude": 30.23714533,
+        "longitude": -97.72221991
+      },
+      "distanceMeters": 5636,
+      "fuelConsumedMl": 1099,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740052864016,
+      "endMs": 1740053328022,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23718829,
+        "longitude": -97.72227782
+      },
+      "endCoordinates": {
+        "latitude": 30.25885405,
+        "longitude": -97.71194219
+      },
+      "distanceMeters": 3544,
+      "fuelConsumedMl": 641,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740058083017,
+      "endMs": 1740058376022,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Inks Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.2588858,
+        "longitude": -97.71202074
+      },
+      "endCoordinates": {
+        "latitude": 30.26595975,
+        "longitude": -97.7280433
+      },
+      "distanceMeters": 2062,
+      "fuelConsumedMl": 487,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740058717025,
+      "endMs": 1740059343010,
+      "startLocation": "Inks Avenue, Austin, TX",
+      "endLocation": "Vaughan Street, Austin, TX",
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.2659924,
+        "longitude": -97.72804121
+      },
+      "endCoordinates": {
+        "latitude": 30.30049002,
+        "longitude": -97.698139899
+      },
+      "distanceMeters": 7539,
+      "fuelConsumedMl": 1680,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740064503016,
+      "endMs": 1740066122014,
+      "startLocation": "Vaughan Street, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.30050344,
+        "longitude": -97.69820624
+      },
+      "endCoordinates": {
+        "latitude": 30.3119114,
+        "longitude": -97.66533707
+      },
+      "distanceMeters": 12607,
+      "fuelConsumedMl": 2165,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740069402025,
+      "endMs": 1740070076029,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.31189759,
+        "longitude": -97.66531298
+      },
+      "endCoordinates": {
+        "latitude": 30.301181939,
+        "longitude": -97.71972129
+      },
+      "distanceMeters": 8475,
+      "fuelConsumedMl": 1633,
+      "tollMeters": 35,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740073843030,
+      "endMs": 1740073867022,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.30112872,
+        "longitude": -97.71969511
+      },
+      "endCoordinates": {
+        "latitude": 30.301146249,
+        "longitude": -97.71973292
+      },
+      "distanceMeters": 11,
+      "fuelConsumedMl": 31,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740074154012,
+      "endMs": 1740075564018,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30115436,
+        "longitude": -97.71968411
+      },
+      "endCoordinates": {
+        "latitude": 30.20034194,
+        "longitude": -97.71574037
+      },
+      "distanceMeters": 15922,
+      "fuelConsumedMl": 2652,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740133093045,
+      "endMs": 1740133354385,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20050918,
+        "longitude": -97.71602003
+      },
+      "endCoordinates": {
+        "latitude": 30.200515479,
+        "longitude": -97.7160482
+      },
+      "distanceMeters": 67,
+      "fuelConsumedMl": 154,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740133667009,
+      "endMs": 1740134186997,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20041779,
+        "longitude": -97.71601948
+      },
+      "endCoordinates": {
+        "latitude": 30.22145698,
+        "longitude": -97.75333481
+      },
+      "distanceMeters": 6605,
+      "fuelConsumedMl": 1384,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740141368034,
+      "endMs": 1740141556031,
+      "startLocation": "Austin, TX",
+      "endLocation": "East Ben White Boulevard, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 23570033,
+        "name": "MR ZIP #603",
+        "address": "3909 S CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22145236,
+        "longitude": -97.753345049
+      },
+      "endCoordinates": {
+        "latitude": 30.22349355,
+        "longitude": -97.76305872
+      },
+      "distanceMeters": 1376,
+      "fuelConsumedMl": 223,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740141845014,
+      "endMs": 1740142006071,
+      "startLocation": "East Ben White Boulevard, Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570033,
+        "name": "MR ZIP #603",
+        "address": "3909 S CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22350997,
+        "longitude": -97.763068429
+      },
+      "endCoordinates": {
+        "latitude": 30.23820095,
+        "longitude": -97.75483895
+      },
+      "distanceMeters": 1876,
+      "fuelConsumedMl": 194,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740148805004,
+      "endMs": 1740150257024,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Twilight Mesa Drive, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.23818884,
+        "longitude": -97.75487555
+      },
+      "endCoordinates": {
+        "latitude": 30.22641557,
+        "longitude": -97.887010179
+      },
+      "distanceMeters": 17962,
+      "fuelConsumedMl": 3679,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740154041121,
+      "endMs": 1740154656023,
+      "startLocation": "Twilight Mesa Drive, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22649149,
+        "longitude": -97.88680048
+      },
+      "endCoordinates": {
+        "latitude": 30.21683383,
+        "longitude": -97.83044326
+      },
+      "distanceMeters": 9284,
+      "fuelConsumedMl": 1282,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740157035030,
+      "endMs": 1740157407018,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.216796099,
+        "longitude": -97.83045666
+      },
+      "endCoordinates": {
+        "latitude": 30.23168716,
+        "longitude": -97.822360649
+      },
+      "distanceMeters": 3565,
+      "fuelConsumedMl": 607,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740162035027,
+      "endMs": 1740163573016,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23161674,
+        "longitude": -97.822399559
+      },
+      "endCoordinates": {
+        "latitude": 30.20055579,
+        "longitude": -97.715938499
+      },
+      "distanceMeters": 12899,
+      "fuelConsumedMl": 2421,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740392452887,
+      "endMs": 1740392597891,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20051049,
+        "longitude": -97.71595064
+      },
+      "endCoordinates": {
+        "latitude": 30.2005021,
+        "longitude": -97.71608929
+      },
+      "distanceMeters": 57,
+      "fuelConsumedMl": 83,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740392968026,
+      "endMs": 1740393641011,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.2005095,
+        "longitude": -97.71609501
+      },
+      "endCoordinates": {
+        "latitude": 30.23712917,
+        "longitude": -97.72222756
+      },
+      "distanceMeters": 5538,
+      "fuelConsumedMl": 924,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740400378013,
+      "endMs": 1740400787009,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23717286,
+        "longitude": -97.722223839
+      },
+      "endCoordinates": {
+        "latitude": 30.25888413,
+        "longitude": -97.71223052
+      },
+      "distanceMeters": 3512,
+      "fuelConsumedMl": 576,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740404531020,
+      "endMs": 1740405209012,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.258905,
+        "longitude": -97.71221961
+      },
+      "endCoordinates": {
+        "latitude": 30.301305349,
+        "longitude": -97.71986305
+      },
+      "distanceMeters": 7013,
+      "fuelConsumedMl": 1283,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740409814006,
+      "endMs": 1740410505016,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.30113323,
+        "longitude": -97.71971562
+      },
+      "endCoordinates": {
+        "latitude": 30.31192093,
+        "longitude": -97.66526109
+      },
+      "distanceMeters": 6948,
+      "fuelConsumedMl": 1244,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740412696007,
+      "endMs": 1740413124012,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Vaughan Street, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.3119866,
+        "longitude": -97.6652523
+      },
+      "endCoordinates": {
+        "latitude": 30.30051172,
+        "longitude": -97.69817826
+      },
+      "distanceMeters": 4028,
+      "fuelConsumedMl": 734,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740419551012,
+      "endMs": 1740421307007,
+      "startLocation": "Philomena Street, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30043979,
+        "longitude": -97.69824631
+      },
+      "endCoordinates": {
+        "latitude": 30.200125029,
+        "longitude": -97.715946889
+      },
+      "distanceMeters": 20836,
+      "fuelConsumedMl": 3878,
+      "tollMeters": 8998,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740478652135,
+      "endMs": 1740479364117,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20045178,
+        "longitude": -97.71600653
+      },
+      "endCoordinates": {
+        "latitude": 30.22145425,
+        "longitude": -97.75337066
+      },
+      "distanceMeters": 6614,
+      "fuelConsumedMl": 1322,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740486897017,
+      "endMs": 1740487230018,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22149907,
+        "longitude": -97.75330185
+      },
+      "endCoordinates": {
+        "latitude": 30.23822021,
+        "longitude": -97.754849059
+      },
+      "distanceMeters": 3266,
+      "fuelConsumedMl": 333,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740494640218,
+      "endMs": 1740496587006,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Twilight Mesa Drive, Austin, TX",
+      "startAddress": {
+        "id": 263840354,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.2383041,
+        "longitude": -97.755017159
+      },
+      "endCoordinates": {
+        "latitude": 30.22639887,
+        "longitude": -97.88703721
+      },
+      "distanceMeters": 17932,
+      "fuelConsumedMl": 3350,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740499826012,
+      "endMs": 1740500504003,
+      "startLocation": "Ranch Road 1826, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22653005,
+        "longitude": -97.886940139
+      },
+      "endCoordinates": {
+        "latitude": 30.216783009,
+        "longitude": -97.83052253
+      },
+      "distanceMeters": 9302,
+      "fuelConsumedMl": 1270,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740504006011,
+      "endMs": 1740504575020,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.21679464,
+        "longitude": -97.83048166
+      },
+      "endCoordinates": {
+        "latitude": 30.23168673,
+        "longitude": -97.822343399
+      },
+      "distanceMeters": 3496,
+      "fuelConsumedMl": 615,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740509976017,
+      "endMs": 1740511428994,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23172031,
+        "longitude": -97.82229049
+      },
+      "endCoordinates": {
+        "latitude": 30.200198209,
+        "longitude": -97.71619491
+      },
+      "distanceMeters": 13193,
+      "fuelConsumedMl": 2616,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740565272384,
+      "endMs": 1740566092003,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20054575,
+        "longitude": -97.71598776
+      },
+      "endCoordinates": {
+        "latitude": 30.23695933,
+        "longitude": -97.721971089
+      },
+      "distanceMeters": 5560,
+      "fuelConsumedMl": 1148,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740574572005,
+      "endMs": 1740577060095,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Old Austin Highway, Bastrop, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.23695699,
+        "longitude": -97.72184695
+      },
+      "endCoordinates": {
+        "latitude": 30.11041131,
+        "longitude": -97.333655429
+      },
+      "distanceMeters": 43054,
+      "fuelConsumedMl": 8029,
+      "tollMeters": 2912,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740584483013,
+      "endMs": 1740584651016,
+      "startLocation": "Old Austin Highway, Bastrop, TX",
+      "endLocation": "Agnes Street, Bastrop, TX",
+      "startAddress": {
+        "id": 23570753,
+        "name": "HEB #582",
+        "address": "104 N HASLER BLVD, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "startCoordinates": {
+        "latitude": 30.110376639,
+        "longitude": -97.33363807
+      },
+      "endCoordinates": {
+        "latitude": 30.10411923,
+        "longitude": -97.33165845
+      },
+      "distanceMeters": 981,
+      "fuelConsumedMl": 126,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740586345023,
+      "endMs": 1740588681007,
+      "startLocation": "Agnes Street, Bastrop, TX",
+      "endLocation": "US Highway 290, Manor, TX",
+      "startAddress": {
+        "id": 23570745,
+        "name": "WALMART SUPERCENTER #1042",
+        "address": "488 HIGHWAY 71 W, BASTROP, TX 78602"
+      },
+      "endAddress": {
+        "id": 23571137,
+        "name": "WALMART SUPERCENTER #3169",
+        "address": "11923 US HWY 290 E, MANOR, TX 78653"
+      },
+      "startCoordinates": {
+        "latitude": 30.10409149,
+        "longitude": -97.33168593
+      },
+      "endCoordinates": {
+        "latitude": 30.34715832,
+        "longitude": -97.54470116
+      },
+      "distanceMeters": 54708,
+      "fuelConsumedMl": 10667,
+      "tollMeters": 18779,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740592383019,
+      "endMs": 1740593987007,
+      "startLocation": "US Highway 290, Manor, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23571137,
+        "name": "WALMART SUPERCENTER #3169",
+        "address": "11923 US HWY 290 E, MANOR, TX 78653"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.34709335,
+        "longitude": -97.5446511
+      },
+      "endCoordinates": {
+        "latitude": 30.20052209,
+        "longitude": -97.7159188
+      },
+      "distanceMeters": 31684,
+      "fuelConsumedMl": 6741,
+      "tollMeters": 21740,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740651402778,
+      "endMs": 1740652411021,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "South Pleasant Valley Road, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "startCoordinates": {
+        "latitude": 30.20048548,
+        "longitude": -97.71592951
+      },
+      "endCoordinates": {
+        "latitude": 30.23693977,
+        "longitude": -97.721826369
+      },
+      "distanceMeters": 5597,
+      "fuelConsumedMl": 1155,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740658857002,
+      "endMs": 1740659315029,
+      "startLocation": "South Pleasant Valley Road, Austin, TX",
+      "endLocation": "Calles Street, Austin, TX",
+      "startAddress": {
+        "id": 23570895,
+        "name": "HEB PLUS #91",
+        "address": "2508 E RIVERSIDE DR, AUSTIN, TX 78741"
+      },
+      "endAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "startCoordinates": {
+        "latitude": 30.23699796,
+        "longitude": -97.72187
+      },
+      "endCoordinates": {
+        "latitude": 30.25880495,
+        "longitude": -97.71210299
+      },
+      "distanceMeters": 3590,
+      "fuelConsumedMl": 679,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740663287009,
+      "endMs": 1740664074011,
+      "startLocation": "Calles Street, Austin, TX",
+      "endLocation": "Bennett Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570559,
+        "name": "HEB #465",
+        "address": "2701 E 7TH ST, AUSTIN, TX 78702"
+      },
+      "endAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "startCoordinates": {
+        "latitude": 30.25885016,
+        "longitude": -97.71204352
+      },
+      "endCoordinates": {
+        "latitude": 30.30118529,
+        "longitude": -97.71977676
+      },
+      "distanceMeters": 6986,
+      "fuelConsumedMl": 1299,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740669199005,
+      "endMs": 1740669921008,
+      "startLocation": "Bennett Avenue, Austin, TX",
+      "endLocation": "Manor Road, Austin, TX",
+      "startAddress": {
+        "id": 23570558,
+        "name": "HEB #425",
+        "address": "1000 E 41ST ST, AUSTIN, TX 78751"
+      },
+      "endAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.301092279,
+        "longitude": -97.7196777
+      },
+      "endCoordinates": {
+        "latitude": 30.31197984,
+        "longitude": -97.665257229
+      },
+      "distanceMeters": 8443,
+      "fuelConsumedMl": 1737,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740673877195,
+      "endMs": 1740674425024,
+      "startLocation": "Manor Road, Austin, TX",
+      "endLocation": "Philomena Street, Austin, TX",
+      "startAddress": {
+        "id": 23570556,
+        "name": "HEB #161",
+        "address": "7112 ED BLUESTEIN BLVD, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "startCoordinates": {
+        "latitude": 30.3119732,
+        "longitude": -97.6652319
+      },
+      "endCoordinates": {
+        "latitude": 30.300539959,
+        "longitude": -97.698590929
+      },
+      "distanceMeters": 4200,
+      "fuelConsumedMl": 832,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740680280023,
+      "endMs": 1740682064000,
+      "startLocation": "Philomena Street, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23571090,
+        "name": "HEB #639",
+        "address": "1801 E 51ST ST, AUSTIN, TX 78723"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.30044482,
+        "longitude": -97.69862315
+      },
+      "endCoordinates": {
+        "latitude": 30.20035095,
+        "longitude": -97.71568598
+      },
+      "distanceMeters": 20877,
+      "fuelConsumedMl": 3733,
+      "tollMeters": 8954,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740738076032,
+      "endMs": 1740738649005,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20047964,
+        "longitude": -97.71602583
+      },
+      "endCoordinates": {
+        "latitude": 30.22143457,
+        "longitude": -97.75331201
+      },
+      "distanceMeters": 6596,
+      "fuelConsumedMl": 1348,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740745963004,
+      "endMs": 1740746339006,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22145085,
+        "longitude": -97.753357309
+      },
+      "endCoordinates": {
+        "latitude": 30.23818972,
+        "longitude": -97.75481502
+      },
+      "distanceMeters": 3320,
+      "fuelConsumedMl": 558,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740753145021,
+      "endMs": 1740754821007,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "Ranch Road 1826, Austin, TX",
+      "startAddress": {
+        "id": 263840354,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.23840682,
+        "longitude": -97.75499868
+      },
+      "endCoordinates": {
+        "latitude": 30.22646444,
+        "longitude": -97.88706048
+      },
+      "distanceMeters": 17965,
+      "fuelConsumedMl": 3426,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740759515033,
+      "endMs": 1740760368036,
+      "startLocation": "Ranch Road 1826, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22648759,
+        "longitude": -97.88689947
+      },
+      "endCoordinates": {
+        "latitude": 30.21670211,
+        "longitude": -97.83040887
+      },
+      "distanceMeters": 9315,
+      "fuelConsumedMl": 1553,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740763412201,
+      "endMs": 1740763723008,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.21663557,
+        "longitude": -97.83041273
+      },
+      "endCoordinates": {
+        "latitude": 30.23171031,
+        "longitude": -97.82227292
+      },
+      "distanceMeters": 3483,
+      "fuelConsumedMl": 568,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740767026015,
+      "endMs": 1740767656006,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "South Mopac Expressway, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.23177474,
+        "longitude": -97.82224485
+      },
+      "endCoordinates": {
+        "latitude": 30.21974528,
+        "longitude": -97.83524435
+      },
+      "distanceMeters": 3093,
+      "fuelConsumedMl": 706,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1740769013038,
+      "endMs": 1740769826005,
+      "startLocation": "South Mopac Expressway, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.21974234,
+        "longitude": -97.83527747
+      },
+      "endCoordinates": {
+        "latitude": 30.20042262,
+        "longitude": -97.71552233
+      },
+      "distanceMeters": 15052,
+      "fuelConsumedMl": 2331,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    }
+  ]
+}

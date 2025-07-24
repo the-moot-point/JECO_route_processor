@@ -1,0 +1,484 @@
+{
+  "trips": [
+    {
+      "startMs": 1752578720736,
+      "endMs": 1752580769063,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Sweetwater Crossing Drive, 3.5 mi SSW Lakeway, Travis County, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 25253239,
+        "name": "7 ELEVEN #41166",
+        "address": "17000 SWEETWATER VILLAGE DRIVE, BEE CAVE, TX 78669"
+      },
+      "startCoordinates": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      },
+      "endCoordinates": {
+        "latitude": 30.319686319,
+        "longitude": -98.0073574
+      },
+      "distanceMeters": 35764,
+      "fuelConsumedMl": 8015,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752583445038,
+      "endMs": 1752583935037,
+      "startLocation": "Sweetwater Crossing Drive, 3.5 mi SSW Lakeway, Travis County, TX",
+      "endLocation": "Ladera Boulevard, Bee Cave, TX",
+      "startAddress": {
+        "id": 25253239,
+        "name": "7 ELEVEN #41166",
+        "address": "17000 SWEETWATER VILLAGE DRIVE, BEE CAVE, TX 78669"
+      },
+      "endAddress": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "startCoordinates": {
+        "latitude": 30.3197045,
+        "longitude": -98.00735669
+      },
+      "endCoordinates": {
+        "latitude": 30.31640547,
+        "longitude": -97.95507485
+      },
+      "distanceMeters": 6151,
+      "fuelConsumedMl": 1143,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752587808045,
+      "endMs": 1752588192011,
+      "startLocation": "Ladera Boulevard, Bee Cave, TX",
+      "endLocation": "Lakeway, TX",
+      "startAddress": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "endAddress": {
+        "id": 23570582,
+        "name": "RANDALL'S #1779",
+        "address": "2301 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.31636261,
+        "longitude": -97.95500805
+      },
+      "endCoordinates": {
+        "latitude": 30.3406422,
+        "longitude": -97.96662494
+      },
+      "distanceMeters": 3890,
+      "fuelConsumedMl": 775,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752590211048,
+      "endMs": 1752590290039,
+      "startLocation": "Lakeway, TX",
+      "endLocation": "RM 620, Bee Cave, TX",
+      "startAddress": {
+        "id": 23570582,
+        "name": "RANDALL'S #1779",
+        "address": "2301 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570438,
+        "name": "WALGREENS #7023",
+        "address": "2401 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "startCoordinates": {
+        "latitude": 30.34063641,
+        "longitude": -97.96661069
+      },
+      "endCoordinates": {
+        "latitude": 30.340204459,
+        "longitude": -97.9686098
+      },
+      "distanceMeters": 245,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752591032068,
+      "endMs": 1752591191022,
+      "startLocation": "RM 620, Bee Cave, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23570438,
+        "name": "WALGREENS #7023",
+        "address": "2401 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "endAddress": {
+        "id": 23571395,
+        "name": "KWIK CHEK #64",
+        "address": "2103 RANCH ROAD 620 S, LAKEWAY, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.34012773,
+        "longitude": -97.96858036
+      },
+      "endCoordinates": {
+        "latitude": 30.342898959,
+        "longitude": -97.966531309
+      },
+      "distanceMeters": 520,
+      "fuelConsumedMl": 93,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752592558115,
+      "endMs": 1752592788028,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23571395,
+        "name": "KWIK CHEK #64",
+        "address": "2103 RANCH ROAD 620 S, LAKEWAY, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570197,
+        "name": "METRO FOOD MART",
+        "address": "903 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.342979639,
+        "longitude": -97.96673044
+      },
+      "endCoordinates": {
+        "latitude": 30.35502689,
+        "longitude": -97.96015884
+      },
+      "distanceMeters": 1576,
+      "fuelConsumedMl": 485,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752593958037,
+      "endMs": 1752594553018,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "North Quinlan Park Road, Mesa North, TX",
+      "startAddress": {
+        "id": 23570197,
+        "name": "METRO FOOD MART",
+        "address": "903 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570986,
+        "name": "RANDALLS #2987",
+        "address": "5145 RANCH ROAD 620 N STE A, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.35500761,
+        "longitude": -97.96012002
+      },
+      "endCoordinates": {
+        "latitude": 30.38841347,
+        "longitude": -97.88322989
+      },
+      "distanceMeters": 11400,
+      "fuelConsumedMl": 2132,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752598112032,
+      "endMs": 1752598463044,
+      "startLocation": "North Quinlan Park Road, Mesa North, TX",
+      "endLocation": "RM 620, Austin, TX",
+      "startAddress": {
+        "id": 23570986,
+        "name": "RANDALLS #2987",
+        "address": "5145 RANCH ROAD 620 N STE A, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570643,
+        "name": "7 ELEVEN #36564",
+        "address": "7002 RANCH ROAD 620 N, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.38838319,
+        "longitude": -97.88324057
+      },
+      "endCoordinates": {
+        "latitude": 30.40329722,
+        "longitude": -97.85452767
+      },
+      "distanceMeters": 3917,
+      "fuelConsumedMl": 1160,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752600023025,
+      "endMs": 1752600509015,
+      "startLocation": "RM 620, Austin, TX",
+      "endLocation": "Hudson Bend Road, Hudson Bend, TX",
+      "startAddress": {
+        "id": 23570643,
+        "name": "7 ELEVEN #36564",
+        "address": "7002 RANCH ROAD 620 N, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570300,
+        "name": "7 ELEVEN #36559",
+        "address": "3636 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.40337749,
+        "longitude": -97.85452744
+      },
+      "endCoordinates": {
+        "latitude": 30.39822745,
+        "longitude": -97.92847283
+      },
+      "distanceMeters": 8414,
+      "fuelConsumedMl": 1504,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752604157063,
+      "endMs": 1752604488014,
+      "startLocation": "Hudson Bend Road, Hudson Bend, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23570300,
+        "name": "7 ELEVEN #36559",
+        "address": "3636 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570027,
+        "name": "CAVALIER FOOD MARKET",
+        "address": "509 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.39820105,
+        "longitude": -97.92847482
+      },
+      "endCoordinates": {
+        "latitude": 30.35930764,
+        "longitude": -97.95394703
+      },
+      "distanceMeters": 5232,
+      "fuelConsumedMl": 1340,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752606183201,
+      "endMs": 1752606450034,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "Lakeway Boulevard, Lakeway, TX",
+      "startAddress": {
+        "id": 23570027,
+        "name": "CAVALIER FOOD MARKET",
+        "address": "509 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570662,
+        "name": "LAKEWAY MARKETPLACE",
+        "address": "2114 LAKEWAY BLVD, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.35929898,
+        "longitude": -97.9539533
+      },
+      "endCoordinates": {
+        "latitude": 30.35792835,
+        "longitude": -97.97851125
+      },
+      "distanceMeters": 2864,
+      "fuelConsumedMl": 657,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752608733029,
+      "endMs": 1752608959049,
+      "startLocation": "Lakeway Boulevard, Lakeway, TX",
+      "endLocation": "Lohmans Crossing Road, Lakeway, TX",
+      "startAddress": {
+        "id": 23570662,
+        "name": "LAKEWAY MARKETPLACE",
+        "address": "2114 LAKEWAY BLVD, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570685,
+        "name": "CVS #0080",
+        "address": "2306 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.35800837,
+        "longitude": -97.97843196
+      },
+      "endCoordinates": {
+        "latitude": 30.34125857,
+        "longitude": -97.96893422
+      },
+      "distanceMeters": 2364,
+      "fuelConsumedMl": 670,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752610473043,
+      "endMs": 1752612952017,
+      "startLocation": "Lohmans Crossing Road, Lakeway, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570685,
+        "name": "CVS #0080",
+        "address": "2306 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.34127164,
+        "longitude": -97.96892485
+      },
+      "endCoordinates": {
+        "latitude": 30.2006996,
+        "longitude": -97.71586125
+      },
+      "distanceMeters": 33463,
+      "fuelConsumedMl": 7150,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752613281199,
+      "endMs": 1752613335046,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.200653299,
+        "longitude": -97.71585999
+      },
+      "endCoordinates": {
+        "latitude": 30.200489509,
+        "longitude": -97.715935979
+      },
+      "distanceMeters": 32,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752614794026,
+      "endMs": 1752614841034,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20029431,
+        "longitude": -97.715936009
+      },
+      "endCoordinates": {
+        "latitude": 30.20052029,
+        "longitude": -97.71600981
+      },
+      "distanceMeters": 39,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    }
+  ]
+}
