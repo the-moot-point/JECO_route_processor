@@ -6,7 +6,7 @@ Helper functions for date handling and data processing
 from __future__ import annotations
 
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import pandas as pd
 from typing import Dict, List, Optional, Sequence, Tuple, TYPE_CHECKING
 from scipy.spatial import cKDTree
@@ -78,6 +78,14 @@ class DateFormatter:
         """
         date_parts = DateFormatter.parse_date_string(date_str)
         return f"Orders {date_parts['year_month']}.csv"
+
+    @staticmethod
+    def get_day_bounds_ms(date_str: str) -> Tuple[int, int]:
+        """Return start and end Unix millisecond timestamps for the given date."""
+        dt = datetime.strptime(date_str, "%B %d, %Y")
+        start_dt = datetime(dt.year, dt.month, dt.day, tzinfo=timezone.utc)
+        end_dt = start_dt + timedelta(days=1)
+        return int(start_dt.timestamp() * 1000), int(end_dt.timestamp() * 1000)
 
 
 class WarehouseLocations:
