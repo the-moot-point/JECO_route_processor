@@ -347,14 +347,17 @@ class RouteAnalyzer:
         """Find orders within radius of a stop"""
         nearby_orders: List[Dict] = []
 
+        # Drop any orders without coordinates to avoid KDTree errors
+        valid_orders = orders_df.dropna(subset=['Latitude', 'Longitude']).reset_index(drop=True)
+
         order_locs = [
             Location(row['Latitude'], row['Longitude'])
-            for _, row in orders_df.iterrows()
+            for _, row in valid_orders.iterrows()
         ]
 
         idxs, dists = nearest_points(order_locs, stop_loc, self.config.alert_radius_meters)
         for i, dist in zip(idxs, dists):
-            order = orders_df.iloc[i]
+            order = valid_orders.iloc[i]
             nearby_orders.append({
                 'customer_name': order['Customer Name'],
                 'start_time': order['Start Time'],

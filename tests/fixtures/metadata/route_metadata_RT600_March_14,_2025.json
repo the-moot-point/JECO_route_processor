@@ -1,0 +1,1643 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-07-24T20:53:08.335832",
+  "route_info": {
+    "route_number": 600,
+    "date": "March 14, 2025",
+    "vehicle_name": "CHA-AUS 303273 600",
+    "warehouse": {
+      "name": "Austin Warehouse",
+      "location": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      }
+    }
+  },
+  "summary": {
+    "total_scheduled_stops": 13,
+    "total_gps_trips": 15,
+    "total_orders": 23,
+    "total_alerts": 15,
+    "stops_visited": 9,
+    "stops_with_orders": 8,
+    "unscheduled_stops": 6
+  },
+  "scheduled_stops": [
+    {
+      "stop_id": 2859027,
+      "sequence": 1,
+      "customer_name": "RANDALLS #2987",
+      "location": {
+        "latitude": 30.388927,
+        "longitude": -97.884142
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741966471150,
+          "address": "RANDALLS #2987",
+          "distance_meters": 46.1516118760584
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741961053030,
+          "address": "RANDALLS #2987",
+          "distance_meters": 33.280859548503756
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "RANDALLS #2987",
+          "start_time": "3/14/2025 9:54 AM",
+          "end_time": "3/14/2025 10:13 AM",
+          "duration_minutes": 18.85,
+          "user": "Aaron Day",
+          "distance_meters": 13.770247742206665
+        },
+        {
+          "customer_name": "RANDALLS #2987",
+          "start_time": "3/14/2025 9:39 AM",
+          "end_time": "3/14/2025 9:54 AM",
+          "duration_minutes": 15.78,
+          "user": "Aaron Day",
+          "distance_meters": 13.770247742206665
+        },
+        {
+          "customer_name": "MARSHALL FORD GROCERY",
+          "start_time": "3/14/2025 10:40 AM",
+          "end_time": "3/14/2025 10:41 AM",
+          "duration_minutes": 0.47,
+          "user": "Aaron Day",
+          "distance_meters": 30.874782851986126
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2858982,
+      "sequence": 2,
+      "customer_name": "TARGET #1953",
+      "location": {
+        "latitude": 30.402406,
+        "longitude": -97.850503
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2858959,
+      "sequence": 3,
+      "customer_name": "RUDYS COUNTRY STORE #4",
+      "location": {
+        "latitude": 30.410561,
+        "longitude": -97.849497
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741959359029,
+          "address": "RUDYS COUNTRY STORE #4",
+          "distance_meters": 30.11036696841073
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741958146021,
+          "address": "RUDYS COUNTRY STORE #4",
+          "distance_meters": 40.40282403572823
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "HOME DEPOT #8418",
+          "start_time": "3/14/2025 8:43 AM",
+          "end_time": "3/14/2025 8:50 AM",
+          "duration_minutes": 7.13,
+          "user": "Aaron Day",
+          "distance_meters": 36.30436465973808
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2858960,
+      "sequence": 4,
+      "customer_name": "HOME DEPOT #8418",
+      "location": {
+        "latitude": 30.41475,
+        "longitude": -97.850664
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741960390025,
+          "address": "HOME DEPOT #8418",
+          "distance_meters": 73.37117965339513
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741959709016,
+          "address": "HOME DEPOT #8418",
+          "distance_meters": 71.17740771751909
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "RANDALLS #2987",
+          "start_time": "3/14/2025 9:18 AM",
+          "end_time": "3/14/2025 9:33 AM",
+          "duration_minutes": 15.03,
+          "user": "Aaron Day",
+          "distance_meters": 57.40674381260054
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2858929,
+      "sequence": 5,
+      "customer_name": "7 ELEVEN #36564",
+      "location": {
+        "latitude": 30.403585,
+        "longitude": -97.854771
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741957860068,
+          "address": "7 ELEVEN #36564",
+          "distance_meters": 7.668008169906506
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741956573024,
+          "address": "7 ELEVEN #36564",
+          "distance_meters": 12.313748988602342
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "RUDYS COUNTRY STORE #4",
+          "start_time": "3/14/2025 8:19 AM",
+          "end_time": "3/14/2025 8:35 AM",
+          "duration_minutes": 15.12,
+          "user": "Aaron Day",
+          "distance_meters": 3.5215063929890547
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2858928,
+      "sequence": 6,
+      "customer_name": "REFUEL #1316",
+      "location": {
+        "latitude": 30.369461,
+        "longitude": -97.892539
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2868478,
+      "sequence": 7,
+      "customer_name": "LAKE TRAVIS FIRE RESCUE",
+      "location": {
+        "latitude": 30.3634213,
+        "longitude": -97.9509861
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741973855152,
+          "address": "LAKE TRAVIS FIRE RESCUE",
+          "distance_meters": 13.717981425334251
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741973476011,
+          "address": "LAKE TRAVIS FIRE RESCUE",
+          "distance_meters": 10.974835139244835
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "LAKE TRAVIS FIRE RESCUE",
+          "start_time": "3/14/2025 12:30 PM",
+          "end_time": "3/14/2025 12:32 PM",
+          "duration_minutes": 1.8,
+          "user": "Aaron Day",
+          "distance_meters": 5.612480669217438
+        },
+        {
+          "customer_name": "FOOD ZONE #2",
+          "start_time": "3/14/2025 12:37 PM",
+          "end_time": "3/14/2025 12:37 PM",
+          "duration_minutes": 0.08,
+          "user": "Aaron Day",
+          "distance_meters": 6.627816770997208
+        },
+        {
+          "customer_name": "FOOD ZONE #2",
+          "start_time": "3/14/2025 12:45 PM",
+          "end_time": "3/14/2025 12:48 PM",
+          "duration_minutes": 2.72,
+          "user": "Aaron Day",
+          "distance_meters": 6.627816770997208
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2862983,
+      "sequence": 8,
+      "customer_name": "YETI LIQUOR",
+      "location": {
+        "latitude": 30.369528,
+        "longitude": -97.892738
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2939248,
+      "sequence": 9,
+      "customer_name": "CORK & BREW EXPRESS (RANCH RD)",
+      "location": {
+        "latitude": 30.1986701,
+        "longitude": -97.8273606
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2858958,
+      "sequence": 10,
+      "customer_name": "HUDSON BEND GROCERY",
+      "location": {
+        "latitude": 30.412476,
+        "longitude": -97.926553
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741971028040,
+          "address": "HUDSON BEND GROCERY",
+          "distance_meters": 18.291778760294306
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741970516014,
+          "address": "HUDSON BEND GROCERY",
+          "distance_meters": 21.875810516116942
+        }
+      ],
+      "orders": [],
+      "has_gps_visit": true,
+      "has_order": false
+    },
+    {
+      "stop_id": 2862111,
+      "sequence": 11,
+      "customer_name": "7 ELEVEN #36559",
+      "location": {
+        "latitude": 30.39815,
+        "longitude": -97.928428
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741970082014,
+          "address": "7 ELEVEN #36559",
+          "distance_meters": 53.079503493964076
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741968714029,
+          "address": "7 ELEVEN #36559",
+          "distance_meters": 51.76754287457485
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "7 ELEVEN #36559",
+          "start_time": "3/14/2025 11:33 AM",
+          "end_time": "3/14/2025 11:33 AM",
+          "duration_minutes": 0.1,
+          "user": "Aaron Day",
+          "distance_meters": 16.23417551068342
+        },
+        {
+          "customer_name": "HUDSON BEND GROCERY",
+          "start_time": "3/14/2025 11:43 AM",
+          "end_time": "3/14/2025 11:49 AM",
+          "duration_minutes": 5.92,
+          "user": "Aaron Day",
+          "distance_meters": 52.36891639713779
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2858930,
+      "sequence": 12,
+      "customer_name": "MERITO FOOD MART",
+      "location": {
+        "latitude": 30.367062,
+        "longitude": -97.950126
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741973157028,
+          "address": "MERITO FOOD MART",
+          "distance_meters": 16.01265983291034
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741971598164,
+          "address": "MERITO FOOD MART",
+          "distance_meters": 19.869008617960155
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "MERITO FOOD MART",
+          "start_time": "3/14/2025 12:06 PM",
+          "end_time": "3/14/2025 12:21 PM",
+          "duration_minutes": 15.45,
+          "user": "Aaron Day",
+          "distance_meters": 34.044235760187334
+        },
+        {
+          "customer_name": "MERITO FOOD MART",
+          "start_time": "3/14/2025 12:03 PM",
+          "end_time": "3/14/2025 12:03 PM",
+          "duration_minutes": 0.07,
+          "user": "Aaron Day",
+          "distance_meters": 34.044235760187334
+        },
+        {
+          "customer_name": "MERITO FOOD MART",
+          "start_time": "3/14/2025 12:21 PM",
+          "end_time": "3/14/2025 12:25 PM",
+          "duration_minutes": 3.43,
+          "user": "Aaron Day",
+          "distance_meters": 34.044235760187334
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2862637,
+      "sequence": 13,
+      "customer_name": "FOOD ZONE #2",
+      "location": {
+        "latitude": 30.349192,
+        "longitude": -97.9631
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1741974987022,
+          "address": "FOOD ZONE #2",
+          "distance_meters": 48.5827977185908
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1741974163029,
+          "address": "FOOD ZONE #2",
+          "distance_meters": 26.83731511396651
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "TARGET #1812",
+          "start_time": "3/14/2025 1:18 PM",
+          "end_time": "3/14/2025 1:35 PM",
+          "duration_minutes": 17.07,
+          "user": "Aaron Day",
+          "distance_meters": 12.586556405527599
+        },
+        {
+          "customer_name": "TARGET #1812",
+          "start_time": "3/14/2025 12:54 PM",
+          "end_time": "3/14/2025 12:54 PM",
+          "duration_minutes": 0.53,
+          "user": "Aaron Day",
+          "distance_meters": 12.586556405527599
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    }
+  ],
+  "gps_trips": [
+    {
+      "startMs": 1741952167018,
+      "endMs": 1741954783111,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Four Points Drive, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570552,
+        "name": "TARGET #1953",
+        "address": "11220 RANCH ROAD 2222, AUSTIN, TX 78730"
+      },
+      "startCoordinates": {
+        "latitude": 30.20054109,
+        "longitude": -97.71603025
+      },
+      "endCoordinates": {
+        "latitude": 30.40347901,
+        "longitude": -97.8505148
+      },
+      "distanceMeters": 38066,
+      "fuelConsumedMl": 7602,
+      "tollMeters": 0,
+      "driverId": 50785921,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741956355078,
+      "endMs": 1741956573024,
+      "startLocation": "Four Points Drive, Austin, TX",
+      "endLocation": "RM 620, Austin, TX",
+      "startAddress": {
+        "id": 23570552,
+        "name": "TARGET #1953",
+        "address": "11220 RANCH ROAD 2222, AUSTIN, TX 78730"
+      },
+      "endAddress": {
+        "id": 23570643,
+        "name": "7 ELEVEN #36564",
+        "address": "7002 RANCH ROAD 620 N, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.40345091,
+        "longitude": -97.8505041
+      },
+      "endCoordinates": {
+        "latitude": 30.40347928,
+        "longitude": -97.85473169
+      },
+      "distanceMeters": 1072,
+      "fuelConsumedMl": 202,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741957860068,
+      "endMs": 1741958146021,
+      "startLocation": "RM 620, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 23570643,
+        "name": "7 ELEVEN #36564",
+        "address": "7002 RANCH ROAD 620 N, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570629,
+        "name": "RUDYS COUNTRY STORE #4",
+        "address": "7709 N FM 620, AUSTIN, TX 78726"
+      },
+      "startCoordinates": {
+        "latitude": 30.40352229,
+        "longitude": -97.85480467
+      },
+      "endCoordinates": {
+        "latitude": 30.41020529,
+        "longitude": -97.849588539
+      },
+      "distanceMeters": 1279,
+      "fuelConsumedMl": 216,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741959359029,
+      "endMs": 1741959709016,
+      "startLocation": "Austin, TX",
+      "endLocation": "Woodbay Parke Drive, Austin, TX",
+      "startAddress": {
+        "id": 23570629,
+        "name": "RUDYS COUNTRY STORE #4",
+        "address": "7709 N FM 620, AUSTIN, TX 78726"
+      },
+      "endAddress": {
+        "id": 23571297,
+        "name": "HOME DEPOT #8418",
+        "address": "7900 N FM 620, AUSTIN, TX 78726"
+      },
+      "startCoordinates": {
+        "latitude": 30.41030025,
+        "longitude": -97.84958472
+      },
+      "endCoordinates": {
+        "latitude": 30.41537849,
+        "longitude": -97.850815449
+      },
+      "distanceMeters": 1217,
+      "fuelConsumedMl": 312,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741960390025,
+      "endMs": 1741961053030,
+      "startLocation": "Woodbay Parke Drive, Austin, TX",
+      "endLocation": "RM 620, 5.9 mi ENE Lakeway, Travis County, TX",
+      "startAddress": {
+        "id": 23571297,
+        "name": "HOME DEPOT #8418",
+        "address": "7900 N FM 620, AUSTIN, TX 78726"
+      },
+      "endAddress": {
+        "id": 23570986,
+        "name": "RANDALLS #2987",
+        "address": "5145 RANCH ROAD 620 N STE A, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.415394289,
+        "longitude": -97.85083869
+      },
+      "endCoordinates": {
+        "latitude": 30.38863303,
+        "longitude": -97.88421223
+      },
+      "distanceMeters": 6015,
+      "fuelConsumedMl": 762,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741966471150,
+      "endMs": 1741966677062,
+      "startLocation": "RM 620, 5.9 mi ENE Lakeway, Travis County, TX",
+      "endLocation": "RM 620, 5.6 mi ENE Lakeway, Travis County, TX",
+      "startAddress": {
+        "id": 23570986,
+        "name": "RANDALLS #2987",
+        "address": "5145 RANCH ROAD 620 N STE A, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570194,
+        "name": "MARSHALL FORD GROCERY",
+        "address": "4610 N HWY 620, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.38857634,
+        "longitude": -97.88440083
+      },
+      "endCoordinates": {
+        "latitude": 30.38953125,
+        "longitude": -97.89087024
+      },
+      "distanceMeters": 946,
+      "fuelConsumedMl": 237,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741967179117,
+      "endMs": 1741968714029,
+      "startLocation": "RM 620, 5.6 mi ENE Lakeway, Travis County, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23570194,
+        "name": "MARSHALL FORD GROCERY",
+        "address": "4610 N HWY 620, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570300,
+        "name": "7 ELEVEN #36559",
+        "address": "3636 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.38951271,
+        "longitude": -97.89085772
+      },
+      "endCoordinates": {
+        "latitude": 30.39793958,
+        "longitude": -97.9279471
+      },
+      "distanceMeters": 12075,
+      "fuelConsumedMl": 2025,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741970082014,
+      "endMs": 1741970516014,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "Hudson Bend Road, Hudson Bend, TX",
+      "startAddress": {
+        "id": 23570300,
+        "name": "7 ELEVEN #36559",
+        "address": "3636 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570141,
+        "name": "HUDSON BEND GROCERY",
+        "address": "5001 HUDSON BEND RD, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.3979261,
+        "longitude": -97.92793977
+      },
+      "endCoordinates": {
+        "latitude": 30.412516439,
+        "longitude": -97.92677584
+      },
+      "distanceMeters": 2011,
+      "fuelConsumedMl": 380,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741971028040,
+      "endMs": 1741971598164,
+      "startLocation": "Hudson Bend Road, Hudson Bend, TX",
+      "endLocation": "Nightingale Lane, Lakeway, TX",
+      "startAddress": {
+        "id": 23570141,
+        "name": "HUDSON BEND GROCERY",
+        "address": "5001 HUDSON BEND RD, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570389,
+        "name": "MERITO FOOD MART",
+        "address": "201 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.41244755,
+        "longitude": -97.92674052
+      },
+      "endCoordinates": {
+        "latitude": 30.3670098,
+        "longitude": -97.94992827
+      },
+      "distanceMeters": 6057,
+      "fuelConsumedMl": 1195,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741973157028,
+      "endMs": 1741973476011,
+      "startLocation": "Nightingale Lane, Lakeway, TX",
+      "endLocation": "Whippoorwill Street South, Lakeway, TX",
+      "startAddress": {
+        "id": 23570389,
+        "name": "MERITO FOOD MART",
+        "address": "201 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 263840549,
+        "name": "LAKE TRAVIS FIRE RESCUE",
+        "address": "15304 PHEASANT LANE, LAKEWAY, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.36701017,
+        "longitude": -97.949970519
+      },
+      "endCoordinates": {
+        "latitude": 30.36344248,
+        "longitude": -97.95109762
+      },
+      "distanceMeters": 1066,
+      "fuelConsumedMl": 373,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741973855152,
+      "endMs": 1741974163029,
+      "startLocation": "Whippoorwill Street South, Lakeway, TX",
+      "endLocation": "Gebron Drive, Lakeway, TX",
+      "startAddress": {
+        "id": 263840549,
+        "name": "LAKE TRAVIS FIRE RESCUE",
+        "address": "15304 PHEASANT LANE, LAKEWAY, TX 78734"
+      },
+      "endAddress": {
+        "id": 32558680,
+        "name": "FOOD ZONE #2",
+        "address": "1405 S RANCH ROAD 620, LAKEWAY, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.36345427,
+        "longitude": -97.95112364
+      },
+      "endCoordinates": {
+        "latitude": 30.34929449,
+        "longitude": -97.96335288
+      },
+      "distanceMeters": 2229,
+      "fuelConsumedMl": 362,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741974987022,
+      "endMs": 1741976595021,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "Ladera Boulevard, Bee Cave, TX",
+      "startAddress": {
+        "id": 32558680,
+        "name": "FOOD ZONE #2",
+        "address": "1405 S RANCH ROAD 620, LAKEWAY, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "startCoordinates": {
+        "latitude": 30.34938965,
+        "longitude": -97.96355099
+      },
+      "endCoordinates": {
+        "latitude": 30.31701331,
+        "longitude": -97.95384564
+      },
+      "distanceMeters": 6135,
+      "fuelConsumedMl": 1655,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741977814023,
+      "endMs": 1741978869004,
+      "startLocation": "Ladera Boulevard, Bee Cave, TX",
+      "endLocation": "Highway 71 West, Austin, TX",
+      "startAddress": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "startCoordinates": {
+        "latitude": 30.316966229,
+        "longitude": -97.953874619
+      },
+      "endCoordinates": {
+        "latitude": 30.23543287,
+        "longitude": -97.87553197
+      },
+      "distanceMeters": 13006,
+      "fuelConsumedMl": 2349,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741980299047,
+      "endMs": 1741981647013,
+      "startLocation": "Highway 71 West, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23539533,
+        "longitude": -97.87551658
+      },
+      "endCoordinates": {
+        "latitude": 30.20028733,
+        "longitude": -97.71600984
+      },
+      "distanceMeters": 18285,
+      "fuelConsumedMl": 2836,
+      "tollMeters": 0,
+      "driverId": 52240868,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1741983156029,
+      "endMs": 1741983188030,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.2003983,
+        "longitude": -97.71598337
+      },
+      "endCoordinates": {
+        "latitude": 30.200200099,
+        "longitude": -97.71594403
+      },
+      "distanceMeters": 38,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    }
+  ],
+  "orders": [
+    {
+      "Time Clock Event ID": 52526414,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "TARGET #1812",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 1:35 PM",
+      "End Time": "3/14/2025 1:36 PM",
+      "Minutes": 0.63,
+      "Latitude": 30.31582514441495,
+      "Longitude": -97.95421679498808,
+      "Time Updated": "3/14/2025 1:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 1:38 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52526412,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "TARGET #1812",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 1:18 PM",
+      "End Time": "3/14/2025 1:35 PM",
+      "Minutes": 17.07,
+      "Latitude": 30.34929550696075,
+      "Longitude": -97.96315379798342,
+      "Time Updated": "3/14/2025 1:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 1:38 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52526410,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "TARGET #1812",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:54 PM",
+      "End Time": "3/14/2025 12:54 PM",
+      "Minutes": 0.53,
+      "Latitude": 30.34929550696075,
+      "Longitude": -97.96315379798342,
+      "Time Updated": "3/14/2025 1:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 1:38 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52524851,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "FOOD ZONE #2",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:45 PM",
+      "End Time": "3/14/2025 12:48 PM",
+      "Minutes": 2.72,
+      "Latitude": 30.36342159896893,
+      "Longitude": -97.95105504353828,
+      "Time Updated": "3/14/2025 1:05 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 12:53 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52524850,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "FOOD ZONE #2",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:37 PM",
+      "End Time": "3/14/2025 12:37 PM",
+      "Minutes": 0.08,
+      "Latitude": 30.36342159896893,
+      "Longitude": -97.95105504353828,
+      "Time Updated": "3/14/2025 1:05 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 12:53 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52524049,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "LAKE TRAVIS FIRE RESCUE",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:30 PM",
+      "End Time": "3/14/2025 12:32 PM",
+      "Minutes": 1.8,
+      "Latitude": 30.3634236039076,
+      "Longitude": -97.95104442210774,
+      "Time Updated": "3/14/2025 1:05 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 12:35 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52523681,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "MERITO FOOD MART",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:21 PM",
+      "End Time": "3/14/2025 12:25 PM",
+      "Minutes": 3.43,
+      "Latitude": 30.36680014815294,
+      "Longitude": -97.9503110250342,
+      "Time Updated": "3/14/2025 12:34 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 12:25 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52523680,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "MERITO FOOD MART",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:06 PM",
+      "End Time": "3/14/2025 12:21 PM",
+      "Minutes": 15.45,
+      "Latitude": 30.36680014815294,
+      "Longitude": -97.9503110250342,
+      "Time Updated": "3/14/2025 12:34 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 12:25 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52523679,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "MERITO FOOD MART",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 12:03 PM",
+      "End Time": "3/14/2025 12:03 PM",
+      "Minutes": 0.07,
+      "Latitude": 30.36680014815294,
+      "Longitude": -97.9503110250342,
+      "Time Updated": "3/14/2025 12:34 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 12:25 PM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52522142,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "HUDSON BEND GROCERY",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 11:43 AM",
+      "End Time": "3/14/2025 11:49 AM",
+      "Minutes": 5.92,
+      "Latitude": 30.39794113489841,
+      "Longitude": -97.92793921204093,
+      "Time Updated": "3/14/2025 12:04 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 11:49 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52521384,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "7 ELEVEN #36559",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 11:33 AM",
+      "End Time": "3/14/2025 11:33 AM",
+      "Minutes": 0.1,
+      "Latitude": 30.39819311492549,
+      "Longitude": -97.9282665556092,
+      "Time Updated": "3/14/2025 12:04 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 11:34 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52521382,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "7 ELEVEN #36559",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 11:13 AM",
+      "End Time": "3/14/2025 11:29 AM",
+      "Minutes": 16.73,
+      "Latitude": 30.36992057270492,
+      "Longitude": -97.89363124830729,
+      "Time Updated": "3/14/2025 12:04 PM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 11:34 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52520023,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "YETI LIQUOR",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 10:57 AM",
+      "End Time": "3/14/2025 10:58 AM",
+      "Minutes": 0.9,
+      "Latitude": 30.38951288686794,
+      "Longitude": -97.89086150747536,
+      "Time Updated": "3/14/2025 11:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 10:59 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52519376,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "MARSHALL FORD GROCERY",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 10:40 AM",
+      "End Time": "3/14/2025 10:41 AM",
+      "Minutes": 0.47,
+      "Latitude": 30.38865017901043,
+      "Longitude": -97.88417727344984,
+      "Time Updated": "3/14/2025 11:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 10:43 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52518990,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "RANDALLS #2987",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 9:54 AM",
+      "End Time": "3/14/2025 10:13 AM",
+      "Minutes": 18.85,
+      "Latitude": 30.38902028302086,
+      "Longitude": -97.88404739014824,
+      "Time Updated": "3/14/2025 11:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 10:33 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52518989,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "RANDALLS #2987",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 9:39 AM",
+      "End Time": "3/14/2025 9:54 AM",
+      "Minutes": 15.78,
+      "Latitude": 30.38902028302086,
+      "Longitude": -97.88404739014824,
+      "Time Updated": "3/14/2025 11:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 10:33 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52518988,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "RANDALLS #2987",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 9:18 AM",
+      "End Time": "3/14/2025 9:33 AM",
+      "Minutes": 15.03,
+      "Latitude": 30.41524856825705,
+      "Longitude": -97.85082545415064,
+      "Time Updated": "3/14/2025 11:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 10:33 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52515088,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "HOME DEPOT #8418",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 8:43 AM",
+      "End Time": "3/14/2025 8:50 AM",
+      "Minutes": 7.13,
+      "Latitude": 30.4102360991466,
+      "Longitude": -97.84954433672998,
+      "Time Updated": "3/14/2025 9:15 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 8:51 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52514495,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "RUDYS COUNTRY STORE #4",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 8:19 AM",
+      "End Time": "3/14/2025 8:35 AM",
+      "Minutes": 15.12,
+      "Latitude": 30.40355575864906,
+      "Longitude": -97.8547566837302,
+      "Time Updated": "3/14/2025 8:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 8:35 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52513698,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "7 ELEVEN #36564",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 8:06 AM",
+      "End Time": "3/14/2025 8:09 AM",
+      "Minutes": 2.97,
+      "Latitude": 30.40349205430656,
+      "Longitude": -97.8504721064281,
+      "Time Updated": "3/14/2025 8:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 8:09 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52513697,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "7 ELEVEN #36564",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 7:51 AM",
+      "End Time": "3/14/2025 8:06 AM",
+      "Minutes": 15.0,
+      "Latitude": 30.40349205430656,
+      "Longitude": -97.8504721064281,
+      "Time Updated": "3/14/2025 8:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 8:09 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52512890,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "TARGET #1953",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 7:38 AM",
+      "End Time": "3/14/2025 7:38 AM",
+      "Minutes": 0.22,
+      "Latitude": 30.40347506763327,
+      "Longitude": -97.85048575412816,
+      "Time Updated": "3/14/2025 8:05 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 7:43 AM",
+      "Created By": "aday"
+    },
+    {
+      "Time Clock Event ID": 52512327,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 945584,
+      "Date": "3/14/2025",
+      "User": "Aaron Day",
+      "Customer Name": "TARGET #1953",
+      "Route": "600 Fri (2024)",
+      "Route Num": 600,
+      "Start Time": "3/14/2025 7:22 AM",
+      "End Time": "3/14/2025 7:24 AM",
+      "Minutes": 2.75,
+      "Latitude": 30.40347506763327,
+      "Longitude": -97.85048575412816,
+      "Time Updated": "3/14/2025 7:30 AM",
+      "Updated By": "API_1071",
+      "Time Created": "3/14/2025 7:24 AM",
+      "Created By": "aday"
+    }
+  ],
+  "unscheduled_stops": [
+    {
+      "type": "arrival",
+      "location": {
+        "latitude": 30.38953125,
+        "longitude": -97.89087024
+      },
+      "address": {
+        "id": 23570194,
+        "name": "MARSHALL FORD GROCERY",
+        "address": "4610 N HWY 620, AUSTIN, TX 78732"
+      },
+      "time_ms": 1741966677062,
+      "nearest_scheduled_distance": 650.0949130710815
+    },
+    {
+      "type": "departure",
+      "location": {
+        "latitude": 30.38951271,
+        "longitude": -97.89085772
+      },
+      "address": {
+        "id": 23570194,
+        "name": "MARSHALL FORD GROCERY",
+        "address": "4610 N HWY 620, AUSTIN, TX 78732"
+      },
+      "time_ms": 1741967179117,
+      "nearest_scheduled_distance": 648.6891716124685
+    },
+    {
+      "type": "arrival",
+      "location": {
+        "latitude": 30.31701331,
+        "longitude": -97.95384564
+      },
+      "address": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "time_ms": 1741976595021,
+      "nearest_scheduled_distance": 3676.596100038531
+    },
+    {
+      "type": "arrival",
+      "location": {
+        "latitude": 30.23543287,
+        "longitude": -97.87553197
+      },
+      "address": {
+        "name": "Highway 71 West, Austin, TX"
+      },
+      "time_ms": 1741978869004,
+      "nearest_scheduled_distance": 6173.914999005236
+    },
+    {
+      "type": "departure",
+      "location": {
+        "latitude": 30.316966229,
+        "longitude": -97.953874619
+      },
+      "address": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "time_ms": 1741977814023,
+      "nearest_scheduled_distance": 3680.9878628106385
+    },
+    {
+      "type": "departure",
+      "location": {
+        "latitude": 30.23539533,
+        "longitude": -97.87551658
+      },
+      "address": {
+        "name": "Highway 71 West, Austin, TX"
+      },
+      "time_ms": 1741980299047,
+      "nearest_scheduled_distance": 6170.056000025983
+    }
+  ],
+  "alerts": [
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.402406,
+        "longitude": -97.850503
+      },
+      "description": "No GPS visit found for stop #2",
+      "details": {
+        "stop_id": 2858982,
+        "customer": "TARGET #1953"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.402406,
+        "longitude": -97.850503
+      },
+      "description": "No order entry found for stop #2",
+      "details": {
+        "stop_id": 2858982,
+        "customer": "TARGET #1953"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.369461,
+        "longitude": -97.892539
+      },
+      "description": "No GPS visit found for stop #6",
+      "details": {
+        "stop_id": 2858928,
+        "customer": "REFUEL #1316"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.369461,
+        "longitude": -97.892539
+      },
+      "description": "No order entry found for stop #6",
+      "details": {
+        "stop_id": 2858928,
+        "customer": "REFUEL #1316"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.369528,
+        "longitude": -97.892738
+      },
+      "description": "No GPS visit found for stop #8",
+      "details": {
+        "stop_id": 2862983,
+        "customer": "YETI LIQUOR"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.369528,
+        "longitude": -97.892738
+      },
+      "description": "No order entry found for stop #8",
+      "details": {
+        "stop_id": 2862983,
+        "customer": "YETI LIQUOR"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.1986701,
+        "longitude": -97.8273606
+      },
+      "description": "No GPS visit found for stop #9",
+      "details": {
+        "stop_id": 2939248,
+        "customer": "CORK & BREW EXPRESS (RANCH RD)"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.1986701,
+        "longitude": -97.8273606
+      },
+      "description": "No order entry found for stop #9",
+      "details": {
+        "stop_id": 2939248,
+        "customer": "CORK & BREW EXPRESS (RANCH RD)"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.412476,
+        "longitude": -97.926553
+      },
+      "description": "No order entry found for stop #10",
+      "details": {
+        "stop_id": 2858958,
+        "customer": "HUDSON BEND GROCERY"
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.38953125,
+        "longitude": -97.89087024
+      },
+      "description": "Unscheduled arrival at MARSHALL FORD GROCERY",
+      "details": {
+        "address": "MARSHALL FORD GROCERY",
+        "nearest_scheduled_distance": 650.0949130710815
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.38951271,
+        "longitude": -97.89085772
+      },
+      "description": "Unscheduled departure at MARSHALL FORD GROCERY",
+      "details": {
+        "address": "MARSHALL FORD GROCERY",
+        "nearest_scheduled_distance": 648.6891716124685
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.31701331,
+        "longitude": -97.95384564
+      },
+      "description": "Unscheduled arrival at TARGET #1812",
+      "details": {
+        "address": "TARGET #1812",
+        "nearest_scheduled_distance": 3676.596100038531
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.23543287,
+        "longitude": -97.87553197
+      },
+      "description": "Unscheduled arrival at Highway 71 West, Austin, TX",
+      "details": {
+        "address": "Highway 71 West, Austin, TX",
+        "nearest_scheduled_distance": 6173.914999005236
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.316966229,
+        "longitude": -97.953874619
+      },
+      "description": "Unscheduled departure at TARGET #1812",
+      "details": {
+        "address": "TARGET #1812",
+        "nearest_scheduled_distance": 3680.9878628106385
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.23539533,
+        "longitude": -97.87551658
+      },
+      "description": "Unscheduled departure at Highway 71 West, Austin, TX",
+      "details": {
+        "address": "Highway 71 West, Austin, TX",
+        "nearest_scheduled_distance": 6170.056000025983
+      }
+    }
+  ],
+  "config": {
+    "alert_radius_meters": 100.0,
+    "unscheduled_stop_threshold_meters": 150.0
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-07-24T20:53:08.502248",
+  "route_info": {
+    "route_number": 615,
+    "date": "January 28, 2025",
+    "vehicle_name": "CHA-AUS 001414 615",
+    "warehouse": {
+      "name": "Austin Warehouse",
+      "location": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      }
+    }
+  },
+  "summary": {
+    "total_scheduled_stops": 5,
+    "total_gps_trips": 7,
+    "total_orders": 19,
+    "total_alerts": 10,
+    "stops_visited": 2,
+    "stops_with_orders": 0,
+    "unscheduled_stops": 2
+  },
+  "scheduled_stops": [
+    {
+      "stop_id": 2859530,
+      "sequence": 1,
+      "customer_name": "WALMART SUPERCENTER #1253",
+      "location": {
+        "latitude": 30.220938,
+        "longitude": -97.754263
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2862239,
+      "sequence": 2,
+      "customer_name": "HEB #765",
+      "location": {
+        "latitude": 30.22735,
+        "longitude": -97.887753
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2882882,
+      "sequence": 3,
+      "customer_name": "HEB #754",
+      "location": {
+        "latitude": 30.2386938,
+        "longitude": -97.7551818
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1738073843024,
+          "address": "HEB #754",
+          "distance_meters": 67.8800282190162
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1738066961015,
+          "address": "HEB #754",
+          "distance_meters": 68.4838683556862
+        }
+      ],
+      "orders": [],
+      "has_gps_visit": true,
+      "has_order": false
+    },
+    {
+      "stop_id": 2860840,
+      "sequence": 4,
+      "customer_name": "HEB #428",
+      "location": {
+        "latitude": 30.216138,
+        "longitude": -97.830761
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1738084472014,
+          "address": "HEB #428",
+          "distance_meters": 75.9370750248933
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1738081131009,
+          "address": "HEB #428",
+          "distance_meters": 66.36244783210265
+        }
+      ],
+      "orders": [],
+      "has_gps_visit": true,
+      "has_order": false
+    },
+    {
+      "stop_id": 2860839,
+      "sequence": 5,
+      "customer_name": "WALMART SUPERCENTER #2133",
+      "location": {
+        "latitude": 30.232553,
+        "longitude": -97.823095
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    }
+  ],
+  "gps_trips": [
+    {
+      "startMs": 1738058982113,
+      "endMs": 1738059937016,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.20051284,
+        "longitude": -97.71610929
+      },
+      "endCoordinates": {
+        "latitude": 30.221447759,
+        "longitude": -97.75335179
+      },
+      "distanceMeters": 10517,
+      "fuelConsumedMl": 2049,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738066603021,
+      "endMs": 1738066961015,
+      "startLocation": "Austin, TX",
+      "endLocation": "South Congress Avenue, Austin, TX",
+      "startAddress": {
+        "id": 23570589,
+        "name": "WALMART SUPERCENTER #1253",
+        "address": "710 E BEN WHITE BLVD, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "startCoordinates": {
+        "latitude": 30.22141728,
+        "longitude": -97.75338677
+      },
+      "endCoordinates": {
+        "latitude": 30.23815068,
+        "longitude": -97.75484276
+      },
+      "distanceMeters": 3265,
+      "fuelConsumedMl": 476,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738073843024,
+      "endMs": 1738074975127,
+      "startLocation": "South Congress Avenue, Austin, TX",
+      "endLocation": "West US Highway 290, Austin, TX",
+      "startAddress": {
+        "id": 246308458,
+        "name": "HEB #754",
+        "address": "2400 SOUTH CONGRESS AVE, AUSTIN, TX 78704"
+      },
+      "endAddress": {
+        "id": 23571003,
+        "name": "CIRCLE K #2704684",
+        "address": "6412 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.23815484,
+        "longitude": -97.754847089
+      },
+      "endCoordinates": {
+        "latitude": 30.23498918,
+        "longitude": -97.86263944
+      },
+      "distanceMeters": 11847,
+      "fuelConsumedMl": 2010,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738075337038,
+      "endMs": 1738076103030,
+      "startLocation": "West US Highway 290, Austin, TX",
+      "endLocation": "Ranch Road 1826, Austin, TX",
+      "startAddress": {
+        "id": 23571003,
+        "name": "CIRCLE K #2704684",
+        "address": "6412 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "startCoordinates": {
+        "latitude": 30.23513479,
+        "longitude": -97.86262423
+      },
+      "endCoordinates": {
+        "latitude": 30.22641388,
+        "longitude": -97.88706425
+      },
+      "distanceMeters": 5905,
+      "fuelConsumedMl": 1078,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738080234029,
+      "endMs": 1738081131009,
+      "startLocation": "Twilight Mesa Drive, Austin, TX",
+      "endLocation": "Brodie Lane, Austin, TX",
+      "startAddress": {
+        "id": 27102693,
+        "name": "HEB #765",
+        "address": "7901 WEST HWY 290"
+      },
+      "endAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "startCoordinates": {
+        "latitude": 30.22638263,
+        "longitude": -97.8869825
+      },
+      "endCoordinates": {
+        "latitude": 30.21668959,
+        "longitude": -97.830493149
+      },
+      "distanceMeters": 9338,
+      "fuelConsumedMl": 1268,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738084472014,
+      "endMs": 1738084836028,
+      "startLocation": "Brodie Lane, Austin, TX",
+      "endLocation": "West US Highway 290, Sunset Valley, TX",
+      "startAddress": {
+        "id": 23570593,
+        "name": "HEB #428",
+        "address": "6900 BRODIE LN, AUSTIN, TX 78745"
+      },
+      "endAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "startCoordinates": {
+        "latitude": 30.2167639,
+        "longitude": -97.83044049
+      },
+      "endCoordinates": {
+        "latitude": 30.23172133,
+        "longitude": -97.822283279
+      },
+      "distanceMeters": 3464,
+      "fuelConsumedMl": 494,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    },
+    {
+      "startMs": 1738089741027,
+      "endMs": 1738090617012,
+      "startLocation": "West US Highway 290, Sunset Valley, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570588,
+        "name": "WALMART SUPERCENTER #2133",
+        "address": "5017 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.23175045,
+        "longitude": -97.82226977
+      },
+      "endCoordinates": {
+        "latitude": 30.20032639,
+        "longitude": -97.715787359
+      },
+      "distanceMeters": 13134,
+      "fuelConsumedMl": 2239,
+      "tollMeters": 0,
+      "driverId": 28834538,
+      "codriverIds": [],
+      "startOdometer": 42258000,
+      "endOdometer": 42258000,
+      "assetIds": []
+    }
+  ],
+  "orders": [
+    {
+      "Time Clock Event ID": 51636357,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #765",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 12:28 PM",
+      "End Time": "1/28/2025 12:29 PM",
+      "Minutes": 1.02,
+      "Latitude": 30.22942026424523,
+      "Longitude": -97.79498607169651,
+      "Time Updated": "1/28/2025 12:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 12:29 PM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51636348,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "WALMART SUPERCENTER #1253",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 12:27 PM",
+      "End Time": "1/28/2025 12:28 PM",
+      "Minutes": 0.82,
+      "Latitude": 30.22942026424523,
+      "Longitude": -97.79498607169651,
+      "Time Updated": "1/28/2025 12:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 12:28 PM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51636308,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #754",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 12:26 PM",
+      "End Time": "1/28/2025 12:27 PM",
+      "Minutes": 0.8,
+      "Latitude": 30.22942026424523,
+      "Longitude": -97.79498607169651,
+      "Time Updated": "1/28/2025 12:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 12:27 PM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51636259,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #428",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 12:26 PM",
+      "End Time": "1/28/2025 12:26 PM",
+      "Minutes": 0.47,
+      "Latitude": 30.22942026424523,
+      "Longitude": -97.79498607169651,
+      "Time Updated": "1/28/2025 12:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 12:26 PM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51636235,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "WALMART SUPERCENTER #2133",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 12:24 PM",
+      "End Time": "1/28/2025 12:26 PM",
+      "Minutes": 1.62,
+      "Latitude": 30.22942026424523,
+      "Longitude": -97.79498607169651,
+      "Time Updated": "1/28/2025 12:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 12:26 PM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51636234,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "WALMART SUPERCENTER #2133",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 11:31 AM",
+      "End Time": "1/28/2025 12:24 PM",
+      "Minutes": 52.6,
+      "Latitude": 30.25645959202821,
+      "Longitude": -97.83821055105128,
+      "Time Updated": "1/28/2025 12:40 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 12:26 PM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51633958,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #428",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 11:07 AM",
+      "End Time": "1/28/2025 11:31 AM",
+      "Minutes": 24.25,
+      "Latitude": 30.1827543,
+      "Longitude": -97.8324748,
+      "Time Updated": "1/28/2025 12:05 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 11:32 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51633954,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #428",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 10:37 AM",
+      "End Time": "1/28/2025 11:07 AM",
+      "Minutes": 29.8,
+      "Latitude": 30.1827543,
+      "Longitude": -97.8324748,
+      "Time Updated": "1/28/2025 12:05 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 11:32 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51633952,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #428",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 9:38 AM",
+      "End Time": "1/28/2025 9:54 AM",
+      "Minutes": 15.45,
+      "Latitude": 30.2405794,
+      "Longitude": -97.9005706,
+      "Time Updated": "1/28/2025 12:05 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 11:32 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51629680,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931198,
+      "Date": "1/28/2025",
+      "User": "Maria Jaramillo",
+      "Customer Name": "HEB PLUS #91",
+      "Route": "615 Thu (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 10:01 AM",
+      "End Time": "1/28/2025 10:01 AM",
+      "Minutes": 0.37,
+      "Latitude": 30.23657353132059,
+      "Longitude": -97.72261988380713,
+      "Time Updated": "1/28/2025 10:20 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 10:01 AM",
+      "Created By": "MJaramillo"
+    },
+    {
+      "Time Clock Event ID": 51628818,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #765",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 9:38 AM",
+      "End Time": "1/28/2025 9:38 AM",
+      "Minutes": 0.18,
+      "Latitude": 30.2405794,
+      "Longitude": -97.9005706,
+      "Time Updated": "1/28/2025 9:45 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 9:38 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51628817,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #765",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 9:20 AM",
+      "End Time": "1/28/2025 9:38 AM",
+      "Minutes": 18.23,
+      "Latitude": 30.2405794,
+      "Longitude": -97.9005706,
+      "Time Updated": "1/28/2025 9:45 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 9:38 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51624885,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931229,
+      "Date": "1/28/2025",
+      "User": "Emanuel Flores",
+      "Customer Name": "WALMART SUPERCENTER #2133",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 7:55 AM",
+      "End Time": "1/28/2025 7:55 AM",
+      "Minutes": 0.15,
+      "Latitude": NaN,
+      "Longitude": NaN,
+      "Time Updated": "1/28/2025 7:55 AM",
+      "Updated By": "eflores",
+      "Time Created": "1/28/2025 7:55 AM",
+      "Created By": "eflores"
+    },
+    {
+      "Time Clock Event ID": 51624420,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #765",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 7:39 AM",
+      "End Time": "1/28/2025 7:39 AM",
+      "Minutes": 0.05,
+      "Latitude": 30.23481969656169,
+      "Longitude": -97.76417500875812,
+      "Time Updated": "1/28/2025 8:04 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 7:39 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51623917,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #754",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 7:15 AM",
+      "End Time": "1/28/2025 7:22 AM",
+      "Minutes": 7.15,
+      "Latitude": 30.23319595936411,
+      "Longitude": -97.7614394704192,
+      "Time Updated": "1/28/2025 7:30 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 7:22 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51622054,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "WALMART SUPERCENTER #1253",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 5:24 AM",
+      "End Time": "1/28/2025 6:16 AM",
+      "Minutes": 51.95,
+      "Latitude": 30.23218562046182,
+      "Longitude": -97.7593303912419,
+      "Time Updated": "1/28/2025 6:29 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 6:16 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51620728,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "WALMART SUPERCENTER #2133",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 5:23 AM",
+      "End Time": "1/28/2025 5:24 AM",
+      "Minutes": 1.08,
+      "Latitude": 30.23115722913095,
+      "Longitude": -97.76414368580004,
+      "Time Updated": "1/28/2025 5:24 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 5:24 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51620710,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #754",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 5:22 AM",
+      "End Time": "1/28/2025 5:23 AM",
+      "Minutes": 0.28,
+      "Latitude": 30.23115722913095,
+      "Longitude": -97.76414368580004,
+      "Time Updated": "1/28/2025 5:24 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 5:23 AM",
+      "Created By": "jlara"
+    },
+    {
+      "Time Clock Event ID": 51620705,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 931189,
+      "Date": "1/28/2025",
+      "User": "Janthony Lara",
+      "Customer Name": "HEB #765",
+      "Route": "615 Tue (2024)",
+      "Route Num": 615,
+      "Start Time": "1/28/2025 5:22 AM",
+      "End Time": "1/28/2025 5:22 AM",
+      "Minutes": 0.17,
+      "Latitude": 30.23115722913095,
+      "Longitude": -97.76414368580004,
+      "Time Updated": "1/28/2025 5:24 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/28/2025 5:22 AM",
+      "Created By": "jlara"
+    }
+  ],
+  "unscheduled_stops": [
+    {
+      "type": "arrival",
+      "location": {
+        "latitude": 30.23498918,
+        "longitude": -97.86263944
+      },
+      "address": {
+        "id": 23571003,
+        "name": "CIRCLE K #2704684",
+        "address": "6412 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "time_ms": 1738074975127,
+      "nearest_scheduled_distance": 2561.51489090201
+    },
+    {
+      "type": "departure",
+      "location": {
+        "latitude": 30.23513479,
+        "longitude": -97.86262423
+      },
+      "address": {
+        "id": 23571003,
+        "name": "CIRCLE K #2704684",
+        "address": "6412 W HIGHWAY 290, AUSTIN, TX 78735"
+      },
+      "time_ms": 1738075337038,
+      "nearest_scheduled_distance": 2568.2739543825364
+    }
+  ],
+  "alerts": [
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.220938,
+        "longitude": -97.754263
+      },
+      "description": "No GPS visit found for stop #1",
+      "details": {
+        "stop_id": 2859530,
+        "customer": "WALMART SUPERCENTER #1253"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.220938,
+        "longitude": -97.754263
+      },
+      "description": "No order entry found for stop #1",
+      "details": {
+        "stop_id": 2859530,
+        "customer": "WALMART SUPERCENTER #1253"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.22735,
+        "longitude": -97.887753
+      },
+      "description": "No GPS visit found for stop #2",
+      "details": {
+        "stop_id": 2862239,
+        "customer": "HEB #765"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.22735,
+        "longitude": -97.887753
+      },
+      "description": "No order entry found for stop #2",
+      "details": {
+        "stop_id": 2862239,
+        "customer": "HEB #765"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.2386938,
+        "longitude": -97.7551818
+      },
+      "description": "No order entry found for stop #3",
+      "details": {
+        "stop_id": 2882882,
+        "customer": "HEB #754"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.216138,
+        "longitude": -97.830761
+      },
+      "description": "No order entry found for stop #4",
+      "details": {
+        "stop_id": 2860840,
+        "customer": "HEB #428"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.232553,
+        "longitude": -97.823095
+      },
+      "description": "No GPS visit found for stop #5",
+      "details": {
+        "stop_id": 2860839,
+        "customer": "WALMART SUPERCENTER #2133"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.232553,
+        "longitude": -97.823095
+      },
+      "description": "No order entry found for stop #5",
+      "details": {
+        "stop_id": 2860839,
+        "customer": "WALMART SUPERCENTER #2133"
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.23498918,
+        "longitude": -97.86263944
+      },
+      "description": "Unscheduled arrival at CIRCLE K #2704684",
+      "details": {
+        "address": "CIRCLE K #2704684",
+        "nearest_scheduled_distance": 2561.51489090201
+      }
+    },
+    {
+      "type": "unscheduled_stop",
+      "severity": "low",
+      "location": {
+        "latitude": 30.23513479,
+        "longitude": -97.86262423
+      },
+      "description": "Unscheduled departure at CIRCLE K #2704684",
+      "details": {
+        "address": "CIRCLE K #2704684",
+        "nearest_scheduled_distance": 2568.2739543825364
+      }
+    }
+  ],
+  "config": {
+    "alert_radius_meters": 100.0,
+    "unscheduled_stop_threshold_meters": 150.0
+  }
+}
