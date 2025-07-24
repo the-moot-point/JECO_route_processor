@@ -11,7 +11,7 @@ from typing import Dict, List, Optional, Any
 from dataclasses import dataclass, asdict
 from geopy.distance import distance
 import logging
-from .utils import DateFormatter
+from .utils import DateFormatter, nearest_points
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -246,108 +246,112 @@ class RouteAnalyzer:
         ]
 
         for trip in trips_data['trips']:
-            # Check both start and end locations
             for location_type, coords in [
                 ('arrival', trip['endCoordinates']),
                 ('departure', trip['startCoordinates'])
             ]:
                 trip_loc = Location(coords['latitude'], coords['longitude'])
 
-                # Skip if it's a warehouse location
                 if any(trip_loc.distance_to(wh) < 50 for wh in warehouse_locations):
                     continue
 
-                # Check if it's near any scheduled stop
-                min_distance = float('inf')
-                for scheduled_loc in scheduled_locations:
-                    dist = trip_loc.distance_to(scheduled_loc)
-                    min_distance = min(min_distance, dist)
+                idxs, _ = nearest_points(
+                    scheduled_locations,
+                    trip_loc,
+                    self.config.unscheduled_stop_threshold_meters,
+                )
 
-                # If not near any scheduled stop, it's unscheduled
-                if min_distance > self.config.unscheduled_stop_threshold_meters:
-                    # Determine the appropriate key prefix based on location type
-                    prefix = 'end' if location_type == 'arrival' else 'start'
+                if not idxs:
+                    _, dists_all = nearest_points(scheduled_locations, trip_loc, float('inf'))
+                    min_distance = dists_all[0] if dists_all else float('inf')
 
-                    # address info may be missing; fall back to the raw location
-                    address_obj = trip.get(
-                        f'{prefix}Address',
-                        {'name': trip.get(f'{prefix}Location')}
-                    )
+                    if min_distance > self.config.unscheduled_stop_threshold_meters:
+                        prefix = 'end' if location_type == 'arrival' else 'start'
+                        address_obj = trip.get(
+                            f'{prefix}Address',
+                            {'name': trip.get(f'{prefix}Location')}
+                        )
 
-                    unscheduled_stops.append({
-                        'type': location_type,
-                        'location': asdict(trip_loc),
-                        'address': address_obj,
-                        'time_ms': trip[f'{prefix}Ms'],
-                        'nearest_scheduled_distance': min_distance
-                    })
+                        unscheduled_stops.append({
+                            'type': location_type,
+                            'location': asdict(trip_loc),
+                            'address': address_obj,
+                            'time_ms': trip[f'{prefix}Ms'],
+                            'nearest_scheduled_distance': min_distance,
+                        })
 
-                    self.alerts.append(Alert(
-                        type='unscheduled_stop',
-                        severity='low',
-                        location=trip_loc,
-                        description=f"Unscheduled {location_type} at {address_obj['name']}",
-                        details={
-                            'address': address_obj['name'],
-                            'nearest_scheduled_distance': min_distance
-                        }
-                    ))
+                        self.alerts.append(
+                            Alert(
+                                type='unscheduled_stop',
+                                severity='low',
+                                location=trip_loc,
+                                description=f"Unscheduled {location_type} at {address_obj['name']}",
+                                details={
+                                    'address': address_obj['name'],
+                                    'nearest_scheduled_distance': min_distance,
+                                },
+                            )
+                        )
 
         return unscheduled_stops
 
     def _find_gps_visits(self, stop_loc: Location, trips: List[Dict]) -> List[Dict]:
         """Find GPS visits within radius of a stop"""
-        visits = []
+        visits: List[Dict] = []
 
-        for trip in trips:
+        start_locs = [
+            Location(t['startCoordinates']['latitude'], t['startCoordinates']['longitude'])
+            for t in trips
+        ]
+        end_locs = [
+            Location(t['endCoordinates']['latitude'], t['endCoordinates']['longitude'])
+            for t in trips
+        ]
+
+        idxs, dists = nearest_points(start_locs, stop_loc, self.config.alert_radius_meters)
+        for i, dist in zip(idxs, dists):
+            trip = trips[i]
             start_name = trip.get('startAddress', {}).get('name', trip.get('startLocation'))
+            visits.append({
+                'type': 'departure',
+                'time_ms': trip['startMs'],
+                'address': start_name,
+                'distance_meters': dist,
+            })
+
+        idxs, dists = nearest_points(end_locs, stop_loc, self.config.alert_radius_meters)
+        for i, dist in zip(idxs, dists):
+            trip = trips[i]
             end_name = trip.get('endAddress', {}).get('name', trip.get('endLocation'))
-
-            # Check start location
-            start_loc = Location(
-                trip['startCoordinates']['latitude'],
-                trip['startCoordinates']['longitude']
-            )
-            if stop_loc.distance_to(start_loc) <= self.config.alert_radius_meters:
-                visits.append({
-                    'type': 'departure',
-                    'time_ms': trip['startMs'],
-                    'address': start_name,
-                    'distance_meters': stop_loc.distance_to(start_loc)
-                })
-
-            # Check end location
-            end_loc = Location(
-                trip['endCoordinates']['latitude'],
-                trip['endCoordinates']['longitude']
-            )
-            if stop_loc.distance_to(end_loc) <= self.config.alert_radius_meters:
-                visits.append({
-                    'type': 'arrival',
-                    'time_ms': trip['endMs'],
-                    'address': end_name,
-                    'distance_meters': stop_loc.distance_to(end_loc)
-                })
+            visits.append({
+                'type': 'arrival',
+                'time_ms': trip['endMs'],
+                'address': end_name,
+                'distance_meters': dist,
+            })
 
         return visits
 
     def _find_nearby_orders(self, stop_loc: Location, orders_df: pd.DataFrame) -> List[Dict]:
         """Find orders within radius of a stop"""
-        nearby_orders = []
+        nearby_orders: List[Dict] = []
 
-        for _, order in orders_df.iterrows():
-            order_loc = Location(order['Latitude'], order['Longitude'])
-            dist = stop_loc.distance_to(order_loc)
+        order_locs = [
+            Location(row['Latitude'], row['Longitude'])
+            for _, row in orders_df.iterrows()
+        ]
 
-            if dist <= self.config.alert_radius_meters:
-                nearby_orders.append({
-                    'customer_name': order['Customer Name'],
-                    'start_time': order['Start Time'],
-                    'end_time': order['End Time'],
-                    'duration_minutes': order['Minutes'],
-                    'user': order.get('User', 'Unknown'),
-                    'distance_meters': dist
-                })
+        idxs, dists = nearest_points(order_locs, stop_loc, self.config.alert_radius_meters)
+        for i, dist in zip(idxs, dists):
+            order = orders_df.iloc[i]
+            nearby_orders.append({
+                'customer_name': order['Customer Name'],
+                'start_time': order['Start Time'],
+                'end_time': order['End Time'],
+                'duration_minutes': order['Minutes'],
+                'user': order.get('User', 'Unknown'),
+                'distance_meters': dist,
+            })
 
         return nearby_orders
 

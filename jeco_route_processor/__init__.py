@@ -15,6 +15,7 @@ from .utils import (
     WarehouseLocations,
     DataValidator,
     RouteStatistics,
+    nearest_points,
     run_batch_processing,
     analyze_metadata_file,
 )
@@ -31,6 +32,7 @@ __all__ = [
     "WarehouseLocations",
     "DataValidator",
     "RouteStatistics",
+    "nearest_points",
     "run_batch_processing",
     "analyze_metadata_file",
 ]
