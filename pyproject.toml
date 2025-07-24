@@ -1,0 +1,6 @@
+[tool.ruff]
+# Use default ruff rules
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
