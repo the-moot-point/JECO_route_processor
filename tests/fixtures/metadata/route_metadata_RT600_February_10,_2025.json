@@ -1,0 +1,543 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-07-24T19:58:54.059833",
+  "route_info": {
+    "route_number": 600,
+    "date": "February 10, 2025",
+    "vehicle_name": "CHA-AUS 303273 600",
+    "warehouse": {
+      "name": "Austin Warehouse",
+      "location": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      }
+    }
+  },
+  "summary": {
+    "total_scheduled_stops": 13,
+    "total_gps_trips": 0,
+    "total_orders": 0,
+    "total_alerts": 26,
+    "stops_visited": 0,
+    "stops_with_orders": 0,
+    "unscheduled_stops": 0
+  },
+  "scheduled_stops": [
+    {
+      "stop_id": 2859023,
+      "sequence": 1,
+      "customer_name": "HEB #714",
+      "location": {
+        "latitude": 30.344773,
+        "longitude": -97.967762
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859049,
+      "sequence": 2,
+      "customer_name": "HOME DEPOT #06531",
+      "location": {
+        "latitude": 30.31839,
+        "longitude": -97.95515
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2862996,
+      "sequence": 3,
+      "customer_name": "KWIK CHEK #62",
+      "location": {
+        "latitude": 30.3520791,
+        "longitude": -98.0632501
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859051,
+      "sequence": 4,
+      "customer_name": "KWIK CHEK #55",
+      "location": {
+        "latitude": 30.309937,
+        "longitude": -97.966474
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2863773,
+      "sequence": 5,
+      "customer_name": "SNAX HUT",
+      "location": {
+        "latitude": 30.2917653,
+        "longitude": -98.0236354
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859035,
+      "sequence": 6,
+      "customer_name": "HAMILTON MARKET",
+      "location": {
+        "latitude": 30.286289,
+        "longitude": -98.065675
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2862992,
+      "sequence": 7,
+      "customer_name": "HILL COUNTRY FOOD MART (HWY 71)",
+      "location": {
+        "latitude": 30.3094326,
+        "longitude": -97.9612658
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859065,
+      "sequence": 8,
+      "customer_name": "SNAX MAX #6",
+      "location": {
+        "latitude": 30.308731,
+        "longitude": -97.944502
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2862282,
+      "sequence": 9,
+      "customer_name": "FIVE BELOW #5099",
+      "location": {
+        "latitude": 30.305585,
+        "longitude": -97.940144
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2862640,
+      "sequence": 10,
+      "customer_name": "LOWE'S HOME IMPROVEMENT #1948",
+      "location": {
+        "latitude": 30.303744,
+        "longitude": -97.940048
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2863536,
+      "sequence": 11,
+      "customer_name": "TXB 63",
+      "location": {
+        "latitude": 30.3168531,
+        "longitude": -97.9877757
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2861621,
+      "sequence": 12,
+      "customer_name": "TOTAL WINE & MORE #536",
+      "location": {
+        "latitude": 30.307392,
+        "longitude": -97.93667
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859048,
+      "sequence": 13,
+      "customer_name": "WALGREENS #11272",
+      "location": {
+        "latitude": 30.307466,
+        "longitude": -97.931241
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    }
+  ],
+  "gps_trips": [],
+  "orders": [],
+  "unscheduled_stops": [],
+  "alerts": [
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.344773,
+        "longitude": -97.967762
+      },
+      "description": "No GPS visit found for stop #1",
+      "details": {
+        "stop_id": 2859023,
+        "customer": "HEB #714"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.344773,
+        "longitude": -97.967762
+      },
+      "description": "No order entry found for stop #1",
+      "details": {
+        "stop_id": 2859023,
+        "customer": "HEB #714"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.31839,
+        "longitude": -97.95515
+      },
+      "description": "No GPS visit found for stop #2",
+      "details": {
+        "stop_id": 2859049,
+        "customer": "HOME DEPOT #06531"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.31839,
+        "longitude": -97.95515
+      },
+      "description": "No order entry found for stop #2",
+      "details": {
+        "stop_id": 2859049,
+        "customer": "HOME DEPOT #06531"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3520791,
+        "longitude": -98.0632501
+      },
+      "description": "No GPS visit found for stop #3",
+      "details": {
+        "stop_id": 2862996,
+        "customer": "KWIK CHEK #62"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.3520791,
+        "longitude": -98.0632501
+      },
+      "description": "No order entry found for stop #3",
+      "details": {
+        "stop_id": 2862996,
+        "customer": "KWIK CHEK #62"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.309937,
+        "longitude": -97.966474
+      },
+      "description": "No GPS visit found for stop #4",
+      "details": {
+        "stop_id": 2859051,
+        "customer": "KWIK CHEK #55"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.309937,
+        "longitude": -97.966474
+      },
+      "description": "No order entry found for stop #4",
+      "details": {
+        "stop_id": 2859051,
+        "customer": "KWIK CHEK #55"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.2917653,
+        "longitude": -98.0236354
+      },
+      "description": "No GPS visit found for stop #5",
+      "details": {
+        "stop_id": 2863773,
+        "customer": "SNAX HUT"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.2917653,
+        "longitude": -98.0236354
+      },
+      "description": "No order entry found for stop #5",
+      "details": {
+        "stop_id": 2863773,
+        "customer": "SNAX HUT"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.286289,
+        "longitude": -98.065675
+      },
+      "description": "No GPS visit found for stop #6",
+      "details": {
+        "stop_id": 2859035,
+        "customer": "HAMILTON MARKET"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.286289,
+        "longitude": -98.065675
+      },
+      "description": "No order entry found for stop #6",
+      "details": {
+        "stop_id": 2859035,
+        "customer": "HAMILTON MARKET"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3094326,
+        "longitude": -97.9612658
+      },
+      "description": "No GPS visit found for stop #7",
+      "details": {
+        "stop_id": 2862992,
+        "customer": "HILL COUNTRY FOOD MART (HWY 71)"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.3094326,
+        "longitude": -97.9612658
+      },
+      "description": "No order entry found for stop #7",
+      "details": {
+        "stop_id": 2862992,
+        "customer": "HILL COUNTRY FOOD MART (HWY 71)"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.308731,
+        "longitude": -97.944502
+      },
+      "description": "No GPS visit found for stop #8",
+      "details": {
+        "stop_id": 2859065,
+        "customer": "SNAX MAX #6"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.308731,
+        "longitude": -97.944502
+      },
+      "description": "No order entry found for stop #8",
+      "details": {
+        "stop_id": 2859065,
+        "customer": "SNAX MAX #6"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.305585,
+        "longitude": -97.940144
+      },
+      "description": "No GPS visit found for stop #9",
+      "details": {
+        "stop_id": 2862282,
+        "customer": "FIVE BELOW #5099"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.305585,
+        "longitude": -97.940144
+      },
+      "description": "No order entry found for stop #9",
+      "details": {
+        "stop_id": 2862282,
+        "customer": "FIVE BELOW #5099"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.303744,
+        "longitude": -97.940048
+      },
+      "description": "No GPS visit found for stop #10",
+      "details": {
+        "stop_id": 2862640,
+        "customer": "LOWE'S HOME IMPROVEMENT #1948"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.303744,
+        "longitude": -97.940048
+      },
+      "description": "No order entry found for stop #10",
+      "details": {
+        "stop_id": 2862640,
+        "customer": "LOWE'S HOME IMPROVEMENT #1948"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3168531,
+        "longitude": -97.9877757
+      },
+      "description": "No GPS visit found for stop #11",
+      "details": {
+        "stop_id": 2863536,
+        "customer": "TXB 63"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.3168531,
+        "longitude": -97.9877757
+      },
+      "description": "No order entry found for stop #11",
+      "details": {
+        "stop_id": 2863536,
+        "customer": "TXB 63"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.307392,
+        "longitude": -97.93667
+      },
+      "description": "No GPS visit found for stop #12",
+      "details": {
+        "stop_id": 2861621,
+        "customer": "TOTAL WINE & MORE #536"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.307392,
+        "longitude": -97.93667
+      },
+      "description": "No order entry found for stop #12",
+      "details": {
+        "stop_id": 2861621,
+        "customer": "TOTAL WINE & MORE #536"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.307466,
+        "longitude": -97.931241
+      },
+      "description": "No GPS visit found for stop #13",
+      "details": {
+        "stop_id": 2859048,
+        "customer": "WALGREENS #11272"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.307466,
+        "longitude": -97.931241
+      },
+      "description": "No order entry found for stop #13",
+      "details": {
+        "stop_id": 2859048,
+        "customer": "WALGREENS #11272"
+      }
+    }
+  ],
+  "config": {
+    "alert_radius_meters": 100.0,
+    "unscheduled_stop_threshold_meters": 150.0
+  }
+}
