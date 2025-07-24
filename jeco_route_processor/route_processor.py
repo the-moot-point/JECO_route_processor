@@ -188,6 +188,25 @@ class RouteAnalyzer:
         self.config = config
         self.alerts: List[Alert] = []
 
+    @staticmethod
+    def _get_location_name(trip: Dict, prefix: str) -> str:
+        """Return a human readable location name for a trip endpoint."""
+        addr = trip.get(f"{prefix}Address")
+        if isinstance(addr, dict) and addr.get("name"):
+            return addr["name"]
+
+        loc = trip.get(f"{prefix}Location")
+        if loc:
+            return loc
+
+        coords = trip.get(f"{prefix}Coordinates", {})
+        lat = coords.get("latitude")
+        lon = coords.get("longitude")
+        if lat is not None and lon is not None:
+            return f"{lat},{lon}"
+
+        return "Unknown"
+
     def analyze_stop_visits(self, stops_df: pd.DataFrame, trips_data: Dict,
                            orders_df: pd.DataFrame) -> List[Dict]:
         """Analyze each scheduled stop for GPS visits and orders"""
@@ -268,10 +287,12 @@ class RouteAnalyzer:
                     # Determine the appropriate key prefix based on location type
                     prefix = 'end' if location_type == 'arrival' else 'start'
 
+                    location_name = self._get_location_name(trip, prefix)
+
                     unscheduled_stops.append({
                         'type': location_type,
                         'location': asdict(trip_loc),
-                        'address': trip[f'{prefix}Address'],
+                        'address': location_name,
                         'time_ms': trip[f'{prefix}Ms'],
                         'nearest_scheduled_distance': min_distance
                     })
@@ -280,9 +301,9 @@ class RouteAnalyzer:
                         type='unscheduled_stop',
                         severity='low',
                         location=trip_loc,
-                        description=f"Unscheduled {location_type} at {trip[f'{prefix}Address']['name']}",
+                        description=f"Unscheduled {location_type} at {location_name}",
                         details={
-                            'address': trip[f'{prefix}Address']['name'],
+                            'address': location_name,
                             'nearest_scheduled_distance': min_distance
                         }
                     ))
@@ -303,7 +324,7 @@ class RouteAnalyzer:
                 visits.append({
                     'type': 'departure',
                     'time_ms': trip['startMs'],
-                    'address': trip['startAddress']['name'],
+                    'address': self._get_location_name(trip, 'start'),
                     'distance_meters': stop_loc.distance_to(start_loc)
                 })
 
@@ -316,7 +337,7 @@ class RouteAnalyzer:
                 visits.append({
                     'type': 'arrival',
                     'time_ms': trip['endMs'],
-                    'address': trip['endAddress']['name'],
+                    'address': self._get_location_name(trip, 'end'),
                     'distance_meters': stop_loc.distance_to(end_loc)
                 })
 
