@@ -9,6 +9,7 @@ folium>=0.12.0
 
 # Distance calculations
 geopy>=2.2.0
+scipy>=1.10
 
 # Optional but recommended for development
 jupyter>=1.0.0  # For testing and prototyping

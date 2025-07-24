@@ -3,10 +3,15 @@ Route Processing System - Utility Functions
 Helper functions for date handling and data processing
 """
 
+from __future__ import annotations
+
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Sequence, Tuple, TYPE_CHECKING
+from scipy.spatial import cKDTree
+if TYPE_CHECKING:
+    from .route_processor import Location
 import logging
 
 logger = logging.getLogger(__name__)
@@ -161,6 +166,36 @@ class DataValidator:
                     warnings.append(f"Trip {i}: Long warehouse-to-warehouse trip detected")
 
         return warnings
+
+
+def nearest_points(locations: Sequence[Location], target: Location, radius: float) -> Tuple[List[int], List[float]]:
+    """Return indices and distances of locations within ``radius`` meters of ``target``.
+
+    Distances are calculated using ``geopy`` for accuracy, while ``scipy``'s
+    ``cKDTree`` is used to efficiently pre-filter points in a projected space.
+    The results are sorted by increasing distance.
+    """
+
+    if not locations:
+        return [], []
+
+    # Build KD-tree using an approximate meter projection (1 deg ~= 111 km)
+    coords = [(loc.latitude, loc.longitude) for loc in locations]
+    tree = cKDTree(coords)
+    radius_deg = radius / 111_000
+
+    candidate_idx = tree.query_ball_point([target.latitude, target.longitude], radius_deg)
+
+    distances = [
+        target.distance_to(locations[i])
+        for i in candidate_idx
+    ]
+
+    sorted_pairs = sorted(zip(candidate_idx, distances), key=lambda x: x[1])
+    if not sorted_pairs:
+        return [], []
+    idx_sorted, dist_sorted = zip(*sorted_pairs)
+    return list(idx_sorted), list(dist_sorted)
 
 
 class RouteStatistics:
