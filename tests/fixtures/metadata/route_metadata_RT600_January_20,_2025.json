@@ -1,0 +1,874 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-07-24T19:45:54.584089",
+  "route_info": {
+    "route_number": 600,
+    "date": "January 20, 2025",
+    "vehicle_name": "CHA-AUS 303273 600",
+    "warehouse": {
+      "name": "Austin Warehouse",
+      "location": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      }
+    }
+  },
+  "summary": {
+    "total_scheduled_stops": 13,
+    "total_gps_trips": 0,
+    "total_orders": 18,
+    "total_alerts": 17,
+    "stops_visited": 0,
+    "stops_with_orders": 9,
+    "unscheduled_stops": 0
+  },
+  "scheduled_stops": [
+    {
+      "stop_id": 2859024,
+      "sequence": 1,
+      "customer_name": "HEB #714",
+      "location": {
+        "latitude": 30.344773,
+        "longitude": -97.967762
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859056,
+      "sequence": 2,
+      "customer_name": "HOME DEPOT #06531",
+      "location": {
+        "latitude": 30.31839,
+        "longitude": -97.95515
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "SPECS LIQUOR #65",
+          "start_time": "1/20/2025 10:00 AM",
+          "end_time": "1/20/2025 10:01 AM",
+          "duration_minutes": 0.63,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 49.545628291091006
+        },
+        {
+          "customer_name": "HOME DEPOT #06531",
+          "start_time": "1/20/2025 9:43 AM",
+          "end_time": "1/20/2025 10:00 AM",
+          "duration_minutes": 17.08,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 64.2761981929092
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2862997,
+      "sequence": 3,
+      "customer_name": "KWIK CHEK #62",
+      "location": {
+        "latitude": 30.3520791,
+        "longitude": -98.0632501
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "KWIK CHEK #62",
+          "start_time": "1/20/2025 11:27 AM",
+          "end_time": "1/20/2025 11:49 AM",
+          "duration_minutes": 21.43,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 7.300008302472408
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859055,
+      "sequence": 4,
+      "customer_name": "KWIK CHEK #55",
+      "location": {
+        "latitude": 30.309937,
+        "longitude": -97.966474
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "KWIK CHEK #55",
+          "start_time": "1/20/2025 1:39 PM",
+          "end_time": "1/20/2025 1:57 PM",
+          "duration_minutes": 17.4,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 14.98056425146096
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2863774,
+      "sequence": 5,
+      "customer_name": "SNAX HUT",
+      "location": {
+        "latitude": 30.2917653,
+        "longitude": -98.0236354
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "SNAX HUT",
+          "start_time": "1/20/2025 12:09 PM",
+          "end_time": "1/20/2025 1:07 PM",
+          "duration_minutes": 57.83,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 41.17641359853641
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859036,
+      "sequence": 6,
+      "customer_name": "HAMILTON MARKET",
+      "location": {
+        "latitude": 30.286289,
+        "longitude": -98.065675
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "HAMILTON MARKET",
+          "start_time": "1/20/2025 1:29 PM",
+          "end_time": "1/20/2025 1:33 PM",
+          "duration_minutes": 4.15,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 24.748047012728165
+        },
+        {
+          "customer_name": "HAMILTON MARKET",
+          "start_time": "1/20/2025 1:07 PM",
+          "end_time": "1/20/2025 1:29 PM",
+          "duration_minutes": 21.87,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 24.748047012728165
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2862993,
+      "sequence": 7,
+      "customer_name": "HILL COUNTRY FOOD MART (HWY 71)",
+      "location": {
+        "latitude": 30.3094326,
+        "longitude": -97.9612658
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2912564,
+      "sequence": 8,
+      "customer_name": "HAMILTON LIQUOR LLC",
+      "location": {
+        "latitude": 30.2917483,
+        "longitude": -98.023665
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "SNAX HUT",
+          "start_time": "1/20/2025 12:09 PM",
+          "end_time": "1/20/2025 1:07 PM",
+          "duration_minutes": 57.83,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 38.97488500432021
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859072,
+      "sequence": 9,
+      "customer_name": "SPECS LIQUOR #65",
+      "location": {
+        "latitude": 30.3076484,
+        "longitude": -97.9460915
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "SPECS LIQUOR #65",
+          "start_time": "1/20/2025 10:16 AM",
+          "end_time": "1/20/2025 10:38 AM",
+          "duration_minutes": 22.47,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 29.665536017175324
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859066,
+      "sequence": 10,
+      "customer_name": "SNAX MAX #6",
+      "location": {
+        "latitude": 30.308731,
+        "longitude": -97.944502
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "SNAX MAX #6",
+          "start_time": "1/20/2025 10:47 AM",
+          "end_time": "1/20/2025 11:06 AM",
+          "duration_minutes": 18.73,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 30.809512640335605
+        },
+        {
+          "customer_name": "SNAX MAX #6",
+          "start_time": "1/20/2025 11:07 AM",
+          "end_time": "1/20/2025 11:27 AM",
+          "duration_minutes": 19.98,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 30.809512640335605
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2861996,
+      "sequence": 11,
+      "customer_name": "LOWE'S HOME IMPROVEMENT #1948",
+      "location": {
+        "latitude": 30.303744,
+        "longitude": -97.940048
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2863537,
+      "sequence": 12,
+      "customer_name": "TXB 63",
+      "location": {
+        "latitude": 30.3168531,
+        "longitude": -97.9877757
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859053,
+      "sequence": 13,
+      "customer_name": "WALGREENS #11272",
+      "location": {
+        "latitude": 30.307466,
+        "longitude": -97.931241
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "WALGREENS #11272",
+          "start_time": "1/20/2025 7:39 AM",
+          "end_time": "1/20/2025 7:58 AM",
+          "duration_minutes": 18.18,
+          "user": "Rebekah Gutierrez",
+          "distance_meters": 33.164280573196
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    }
+  ],
+  "gps_trips": [],
+  "orders": [
+    {
+      "Time Clock Event ID": 51483065,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "KWIK CHEK #55",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 1:39 PM",
+      "End Time": "1/20/2025 1:57 PM",
+      "Minutes": 17.4,
+      "Latitude": 30.31004133171431,
+      "Longitude": -97.96637501576726,
+      "Time Updated": "1/20/2025 2:25 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 1:58 PM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51482205,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HAMILTON MARKET",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 1:29 PM",
+      "End Time": "1/20/2025 1:33 PM",
+      "Minutes": 4.15,
+      "Latitude": 30.28633707396172,
+      "Longitude": -98.0654238006526,
+      "Time Updated": "1/20/2025 1:50 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 1:33 PM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51482204,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HAMILTON MARKET",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 1:07 PM",
+      "End Time": "1/20/2025 1:29 PM",
+      "Minutes": 21.87,
+      "Latitude": 30.28633707396172,
+      "Longitude": -98.0654238006526,
+      "Time Updated": "1/20/2025 1:50 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 1:33 PM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51481121,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "SNAX HUT",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 12:09 PM",
+      "End Time": "1/20/2025 1:07 PM",
+      "Minutes": 57.83,
+      "Latitude": 30.29139793290464,
+      "Longitude": -98.02369857959792,
+      "Time Updated": "1/20/2025 1:20 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 1:07 PM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51477829,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "KWIK CHEK #62",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 11:27 AM",
+      "End Time": "1/20/2025 11:49 AM",
+      "Minutes": 21.43,
+      "Latitude": 30.35204124639775,
+      "Longitude": -98.06331222886038,
+      "Time Updated": "1/20/2025 12:10 PM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 11:49 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51477005,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "SNAX MAX #6",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 11:07 AM",
+      "End Time": "1/20/2025 11:27 AM",
+      "Minutes": 19.98,
+      "Latitude": 30.30898437372437,
+      "Longitude": -97.94463361622574,
+      "Time Updated": "1/20/2025 11:35 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 11:27 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51477004,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "SNAX MAX #6",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 10:47 AM",
+      "End Time": "1/20/2025 11:06 AM",
+      "Minutes": 18.73,
+      "Latitude": 30.30898437372437,
+      "Longitude": -97.94463361622574,
+      "Time Updated": "1/20/2025 11:35 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 11:27 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51474820,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "SPECS LIQUOR #65",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 10:16 AM",
+      "End Time": "1/20/2025 10:38 AM",
+      "Minutes": 22.47,
+      "Latitude": 30.30782232505342,
+      "Longitude": -97.94585711028408,
+      "Time Updated": "1/20/2025 10:59 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 10:38 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51473773,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "KWIK CHEK #55",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 10:15 AM",
+      "End Time": "1/20/2025 10:16 AM",
+      "Minutes": 1.12,
+      "Latitude": 30.31706084034435,
+      "Longitude": -97.94997540311697,
+      "Time Updated": "1/20/2025 10:25 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 10:16 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51473325,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "KWIK CHEK #55",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 10:04 AM",
+      "End Time": "1/20/2025 10:04 AM",
+      "Minutes": 0.15,
+      "Latitude": 30.31706084034435,
+      "Longitude": -97.94997540311697,
+      "Time Updated": "1/20/2025 10:25 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 10:04 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51473191,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "SPECS LIQUOR #65",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 10:00 AM",
+      "End Time": "1/20/2025 10:01 AM",
+      "Minutes": 0.63,
+      "Latitude": 30.31874722731576,
+      "Longitude": -97.95484042304952,
+      "Time Updated": "1/20/2025 10:25 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 10:01 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51473146,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HOME DEPOT #06531",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 9:43 AM",
+      "End Time": "1/20/2025 10:00 AM",
+      "Minutes": 17.08,
+      "Latitude": 30.31781625931276,
+      "Longitude": -97.95524642589544,
+      "Time Updated": "1/20/2025 10:25 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 10:00 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51472471,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HEB #714",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 9:08 AM",
+      "End Time": "1/20/2025 9:43 AM",
+      "Minutes": 34.62,
+      "Latitude": 30.34504834544848,
+      "Longitude": -97.96879707155168,
+      "Time Updated": "1/20/2025 9:54 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 9:43 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51472470,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HEB #714",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 8:30 AM",
+      "End Time": "1/20/2025 9:08 AM",
+      "Minutes": 37.88,
+      "Latitude": 30.34501658289725,
+      "Longitude": -97.96880358839218,
+      "Time Updated": "1/20/2025 9:54 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 9:43 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51472469,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HEB #714",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 8:09 AM",
+      "End Time": "1/20/2025 8:30 AM",
+      "Minutes": 20.63,
+      "Latitude": 30.34501658289725,
+      "Longitude": -97.96880358839218,
+      "Time Updated": "1/20/2025 9:54 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 9:43 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51469086,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "WALGREENS #11272",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 7:39 AM",
+      "End Time": "1/20/2025 7:58 AM",
+      "Minutes": 18.18,
+      "Latitude": 30.30717413409642,
+      "Longitude": -97.9311653227526,
+      "Time Updated": "1/20/2025 8:15 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 8:09 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51465366,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "WALGREENS #11272",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 5:50 AM",
+      "End Time": "1/20/2025 5:51 AM",
+      "Minutes": 0.35,
+      "Latitude": 30.20046369229001,
+      "Longitude": -97.71566918878754,
+      "Time Updated": "1/20/2025 6:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 5:51 AM",
+      "Created By": "RebekahGutie"
+    },
+    {
+      "Time Clock Event ID": 51465331,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 928605,
+      "Date": "1/20/2025",
+      "User": "Rebekah Gutierrez",
+      "Customer Name": "HEB #714",
+      "Route": "600 Mon (2024)",
+      "Route Num": 600,
+      "Start Time": "1/20/2025 5:49 AM",
+      "End Time": "1/20/2025 5:50 AM",
+      "Minutes": 0.87,
+      "Latitude": 30.20050095071983,
+      "Longitude": -97.71561664950876,
+      "Time Updated": "1/20/2025 6:00 AM",
+      "Updated By": "API_1071",
+      "Time Created": "1/20/2025 5:50 AM",
+      "Created By": "RebekahGutie"
+    }
+  ],
+  "unscheduled_stops": [],
+  "alerts": [
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.344773,
+        "longitude": -97.967762
+      },
+      "description": "No GPS visit found for stop #1",
+      "details": {
+        "stop_id": 2859024,
+        "customer": "HEB #714"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.344773,
+        "longitude": -97.967762
+      },
+      "description": "No order entry found for stop #1",
+      "details": {
+        "stop_id": 2859024,
+        "customer": "HEB #714"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.31839,
+        "longitude": -97.95515
+      },
+      "description": "No GPS visit found for stop #2",
+      "details": {
+        "stop_id": 2859056,
+        "customer": "HOME DEPOT #06531"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3520791,
+        "longitude": -98.0632501
+      },
+      "description": "No GPS visit found for stop #3",
+      "details": {
+        "stop_id": 2862997,
+        "customer": "KWIK CHEK #62"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.309937,
+        "longitude": -97.966474
+      },
+      "description": "No GPS visit found for stop #4",
+      "details": {
+        "stop_id": 2859055,
+        "customer": "KWIK CHEK #55"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.2917653,
+        "longitude": -98.0236354
+      },
+      "description": "No GPS visit found for stop #5",
+      "details": {
+        "stop_id": 2863774,
+        "customer": "SNAX HUT"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.286289,
+        "longitude": -98.065675
+      },
+      "description": "No GPS visit found for stop #6",
+      "details": {
+        "stop_id": 2859036,
+        "customer": "HAMILTON MARKET"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3094326,
+        "longitude": -97.9612658
+      },
+      "description": "No GPS visit found for stop #7",
+      "details": {
+        "stop_id": 2862993,
+        "customer": "HILL COUNTRY FOOD MART (HWY 71)"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.3094326,
+        "longitude": -97.9612658
+      },
+      "description": "No order entry found for stop #7",
+      "details": {
+        "stop_id": 2862993,
+        "customer": "HILL COUNTRY FOOD MART (HWY 71)"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.2917483,
+        "longitude": -98.023665
+      },
+      "description": "No GPS visit found for stop #8",
+      "details": {
+        "stop_id": 2912564,
+        "customer": "HAMILTON LIQUOR LLC"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3076484,
+        "longitude": -97.9460915
+      },
+      "description": "No GPS visit found for stop #9",
+      "details": {
+        "stop_id": 2859072,
+        "customer": "SPECS LIQUOR #65"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.308731,
+        "longitude": -97.944502
+      },
+      "description": "No GPS visit found for stop #10",
+      "details": {
+        "stop_id": 2859066,
+        "customer": "SNAX MAX #6"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.303744,
+        "longitude": -97.940048
+      },
+      "description": "No GPS visit found for stop #11",
+      "details": {
+        "stop_id": 2861996,
+        "customer": "LOWE'S HOME IMPROVEMENT #1948"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.303744,
+        "longitude": -97.940048
+      },
+      "description": "No order entry found for stop #11",
+      "details": {
+        "stop_id": 2861996,
+        "customer": "LOWE'S HOME IMPROVEMENT #1948"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.3168531,
+        "longitude": -97.9877757
+      },
+      "description": "No GPS visit found for stop #12",
+      "details": {
+        "stop_id": 2863537,
+        "customer": "TXB 63"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.3168531,
+        "longitude": -97.9877757
+      },
+      "description": "No order entry found for stop #12",
+      "details": {
+        "stop_id": 2863537,
+        "customer": "TXB 63"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.307466,
+        "longitude": -97.931241
+      },
+      "description": "No GPS visit found for stop #13",
+      "details": {
+        "stop_id": 2859053,
+        "customer": "WALGREENS #11272"
+      }
+    }
+  ],
+  "config": {
+    "alert_radius_meters": 100.0,
+    "unscheduled_stop_threshold_meters": 150.0
+  }
+}
