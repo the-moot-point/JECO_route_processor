@@ -98,10 +98,21 @@ class RouteDataLoader:
 
         try:
             with open(file_path, 'r') as f:
-                return json.load(f)
+                trips_data = json.load(f)
         except FileNotFoundError:
             logger.warning(f"Trips file not found: {file_path}")
             return {"trips": []}
+
+        start_ms, end_ms = DateFormatter.get_day_bounds_ms(date_str)
+        filtered = [
+            t for t in trips_data.get("trips", [])
+            if start_ms <= t.get("startMs", 0) < end_ms
+        ]
+
+        logger.info(
+            f"Filtered {len(filtered)} trips for RT{route_num} on {date_str}"
+        )
+        return {"trips": filtered}
 
     @staticmethod
     def _normalize_phase(phase: str) -> str:
