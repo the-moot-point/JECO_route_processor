@@ -1,0 +1,1601 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-07-25T17:40:53.231315",
+  "route_info": {
+    "route_number": 600,
+    "date": "July 15, 2025",
+    "vehicle_name": "CHA-AUS 303273 600",
+    "warehouse": {
+      "name": "Austin Warehouse",
+      "location": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      }
+    }
+  },
+  "summary": {
+    "total_scheduled_stops": 12,
+    "total_gps_trips": 15,
+    "total_orders": 29,
+    "total_alerts": 4,
+    "stops_visited": 10,
+    "stops_with_orders": 10,
+    "unscheduled_stops": 0
+  },
+  "scheduled_stops": [
+    {
+      "stop_id": 2859071,
+      "sequence": 1,
+      "customer_name": "TARGET #1812",
+      "location": {
+        "latitude": 30.316716,
+        "longitude": -97.954105
+      },
+      "gps_visits": [],
+      "orders": [],
+      "has_gps_visit": false,
+      "has_order": false
+    },
+    {
+      "stop_id": 2858950,
+      "sequence": 2,
+      "customer_name": "RANDALL'S #1779",
+      "location": {
+        "latitude": 30.3413989,
+        "longitude": -97.9670587
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752590211048,
+          "address": "RANDALL'S #1779",
+          "distance_meters": 94.87236649087757
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752588192011,
+          "address": "RANDALL'S #1779",
+          "distance_meters": 93.68292848674353
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "WALGREENS #7023",
+          "start_time": "7/15/2025 9:35 AM",
+          "end_time": "7/15/2025 9:49 AM",
+          "duration_minutes": 14.15,
+          "user": "Alek Erway",
+          "distance_meters": 80.32500314225801
+        },
+        {
+          "customer_name": "RANDALL'S #1779",
+          "start_time": "7/15/2025 9:03 AM",
+          "end_time": "7/15/2025 9:13 AM",
+          "duration_minutes": 9.75,
+          "user": "Alek Erway",
+          "distance_meters": 81.38760861384685
+        },
+        {
+          "customer_name": "RANDALL'S #1779",
+          "start_time": "7/15/2025 9:15 AM",
+          "end_time": "7/15/2025 9:34 AM",
+          "duration_minutes": 19.38,
+          "user": "Alek Erway",
+          "distance_meters": 83.71644660086112
+        },
+        {
+          "customer_name": "RANDALLS #2987",
+          "start_time": "7/15/2025 9:14 AM",
+          "end_time": "7/15/2025 9:14 AM",
+          "duration_minutes": 0.08,
+          "user": "Alek Erway",
+          "distance_meters": 83.71644660086112
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2861968,
+      "sequence": 3,
+      "customer_name": "RANDALLS #2987",
+      "location": {
+        "latitude": 30.388927,
+        "longitude": -97.884142
+      },
+      "gps_visits": [],
+      "orders": [
+        {
+          "customer_name": "RANDALLS #2987",
+          "start_time": "7/15/2025 11:29 AM",
+          "end_time": "7/15/2025 11:36 AM",
+          "duration_minutes": 7.0,
+          "user": "Alek Erway",
+          "distance_meters": 20.270621515901258
+        }
+      ],
+      "has_gps_visit": false,
+      "has_order": true
+    },
+    {
+      "stop_id": 2862109,
+      "sequence": 4,
+      "customer_name": "7 ELEVEN #36564",
+      "location": {
+        "latitude": 30.403585,
+        "longitude": -97.854771
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752600023025,
+          "address": "7 ELEVEN #36564",
+          "distance_meters": 32.817308939441595
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752598463044,
+          "address": "7 ELEVEN #36564",
+          "distance_meters": 39.55434175179624
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "7 ELEVEN #36564",
+          "start_time": "7/15/2025 12:10 PM",
+          "end_time": "7/15/2025 12:16 PM",
+          "duration_minutes": 5.9,
+          "user": "Alek Erway",
+          "distance_meters": 25.204994272064006
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859012,
+      "sequence": 5,
+      "customer_name": "7 ELEVEN #36559",
+      "location": {
+        "latitude": 30.39815,
+        "longitude": -97.928428
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752604157063,
+          "address": "7 ELEVEN #36559",
+          "distance_meters": 7.229970180859279
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752600509015,
+          "address": "7 ELEVEN #36559",
+          "distance_meters": 9.606244411294497
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "7 ELEVEN #36559",
+          "start_time": "7/15/2025 12:29 PM",
+          "end_time": "7/15/2025 12:52 PM",
+          "duration_minutes": 22.6,
+          "user": "Alek Erway",
+          "distance_meters": 12.03659061769281
+        },
+        {
+          "customer_name": "7 ELEVEN #36559",
+          "start_time": "7/15/2025 12:52 PM",
+          "end_time": "7/15/2025 1:27 PM",
+          "duration_minutes": 34.93,
+          "user": "Alek Erway",
+          "distance_meters": 12.03659061769281
+        },
+        {
+          "customer_name": "7 ELEVEN #36559",
+          "start_time": "7/15/2025 1:27 PM",
+          "end_time": "7/15/2025 1:28 PM",
+          "duration_minutes": 1.12,
+          "user": "Alek Erway",
+          "distance_meters": 13.81291599280668
+        },
+        {
+          "customer_name": "CAVALIER FOOD MARKET",
+          "start_time": "7/15/2025 1:42 PM",
+          "end_time": "7/15/2025 1:57 PM",
+          "duration_minutes": 15.2,
+          "user": "Alek Erway",
+          "distance_meters": 20.667272900568566
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2858937,
+      "sequence": 6,
+      "customer_name": "CAVALIER FOOD MARKET",
+      "location": {
+        "latitude": 30.359415,
+        "longitude": -97.953862
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752606183201,
+          "address": "CAVALIER FOOD MARKET",
+          "distance_meters": 15.571345012422926
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752604488014,
+          "address": "CAVALIER FOOD MARKET",
+          "distance_meters": 14.438653884521772
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "CAVALIER FOOD MARKET",
+          "start_time": "7/15/2025 1:59 PM",
+          "end_time": "7/15/2025 2:02 PM",
+          "duration_minutes": 3.38,
+          "user": "Alek Erway",
+          "distance_meters": 16.74744926578784
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859015,
+      "sequence": 7,
+      "customer_name": "METRO FOOD MART",
+      "location": {
+        "latitude": 30.3549552,
+        "longitude": -97.9603293
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752593958037,
+          "address": "METRO FOOD MART",
+          "distance_meters": 20.942479874896176
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752592788028,
+          "address": "METRO FOOD MART",
+          "distance_meters": 18.213590890128046
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "METRO FOOD MART",
+          "start_time": "7/15/2025 10:35 AM",
+          "end_time": "7/15/2025 10:38 AM",
+          "duration_minutes": 2.8,
+          "user": "Alek Erway",
+          "distance_meters": 19.38534105555181
+        },
+        {
+          "customer_name": "METRO FOOD MART",
+          "start_time": "7/15/2025 10:19 AM",
+          "end_time": "7/15/2025 10:35 AM",
+          "duration_minutes": 15.75,
+          "user": "Alek Erway",
+          "distance_meters": 19.38534105555181
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859014,
+      "sequence": 8,
+      "customer_name": "LAKEWAY MARKETPLACE",
+      "location": {
+        "latitude": 30.3582721,
+        "longitude": -97.978488
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752608733029,
+          "address": "LAKEWAY MARKETPLACE",
+          "distance_meters": 29.728963285754293
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752606450034,
+          "address": "LAKEWAY MARKETPLACE",
+          "distance_meters": 38.17310617799296
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "LAKEWAY MARKETPLACE",
+          "start_time": "7/15/2025 2:40 PM",
+          "end_time": "7/15/2025 2:49 PM",
+          "duration_minutes": 9.0,
+          "user": "Alek Erway",
+          "distance_meters": 31.528415956825423
+        },
+        {
+          "customer_name": "LAKEWAY MARKETPLACE",
+          "start_time": "7/15/2025 2:23 PM",
+          "end_time": "7/15/2025 2:39 PM",
+          "duration_minutes": 16.27,
+          "user": "Alek Erway",
+          "distance_meters": 39.72567051761379
+        },
+        {
+          "customer_name": "LAKEWAY MARKETPLACE",
+          "start_time": "7/15/2025 2:07 PM",
+          "end_time": "7/15/2025 2:22 PM",
+          "duration_minutes": 15.05,
+          "user": "Alek Erway",
+          "distance_meters": 39.72567051761379
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859013,
+      "sequence": 9,
+      "customer_name": "WALGREENS #7023",
+      "location": {
+        "latitude": 30.3398,
+        "longitude": -97.968566
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752591032068,
+          "address": "WALGREENS #7023",
+          "distance_meters": 36.35778457112924
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752590290039,
+          "address": "WALGREENS #7023",
+          "distance_meters": 45.034959013382576
+        }
+      ],
+      "orders": [],
+      "has_gps_visit": true,
+      "has_order": false
+    },
+    {
+      "stop_id": 2859016,
+      "sequence": 10,
+      "customer_name": "KWIK CHEK #64",
+      "location": {
+        "latitude": 30.342809,
+        "longitude": -97.966734
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752592558115,
+          "address": "KWIK CHEK #64",
+          "distance_meters": 18.91983625630899
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752591191022,
+          "address": "KWIK CHEK #64",
+          "distance_meters": 21.89265779592292
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "KWIK CHEK #64",
+          "start_time": "7/15/2025 10:14 AM",
+          "end_time": "7/15/2025 10:15 AM",
+          "duration_minutes": 0.37,
+          "user": "Alek Erway",
+          "distance_meters": 17.769170103754544
+        },
+        {
+          "customer_name": "KWIK CHEK #64",
+          "start_time": "7/15/2025 9:54 AM",
+          "end_time": "7/15/2025 10:14 AM",
+          "duration_minutes": 20.12,
+          "user": "Alek Erway",
+          "distance_meters": 17.769170103754544
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2859017,
+      "sequence": 11,
+      "customer_name": "CVS #0080",
+      "location": {
+        "latitude": 30.3416243,
+        "longitude": -97.968957
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752610473043,
+          "address": "CVS #0080",
+          "distance_meters": 39.21728907166718
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752608959049,
+          "address": "CVS #0080",
+          "distance_meters": 40.6033004093685
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "CVS #0080",
+          "start_time": "7/15/2025 2:53 PM",
+          "end_time": "7/15/2025 3:09 PM",
+          "duration_minutes": 16.25,
+          "user": "Alek Erway",
+          "distance_meters": 19.112993617254865
+        },
+        {
+          "customer_name": "CVS #0080",
+          "start_time": "7/15/2025 3:09 PM",
+          "end_time": "7/15/2025 3:12 PM",
+          "duration_minutes": 2.63,
+          "user": "Alek Erway",
+          "distance_meters": 19.112993617254865
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    },
+    {
+      "stop_id": 2862198,
+      "sequence": 12,
+      "customer_name": "7 ELEVEN #41166",
+      "location": {
+        "latitude": 30.319523,
+        "longitude": -98.00721
+      },
+      "gps_visits": [
+        {
+          "type": "departure",
+          "time_ms": 1752583445038,
+          "address": "7 ELEVEN #41166",
+          "distance_meters": 24.57393223638069
+        },
+        {
+          "type": "arrival",
+          "time_ms": 1752580769063,
+          "address": "7 ELEVEN #41166",
+          "distance_meters": 22.994891413412272
+        }
+      ],
+      "orders": [
+        {
+          "customer_name": "7 ELEVEN #41166",
+          "start_time": "7/15/2025 7:39 AM",
+          "end_time": "7/15/2025 7:43 AM",
+          "duration_minutes": 3.38,
+          "user": "Alek Erway",
+          "distance_meters": 15.396403097690813
+        },
+        {
+          "customer_name": "7 ELEVEN #41166",
+          "start_time": "7/15/2025 7:03 AM",
+          "end_time": "7/15/2025 7:39 AM",
+          "duration_minutes": 36.8,
+          "user": "Alek Erway",
+          "distance_meters": 24.597202954798796
+        },
+        {
+          "customer_name": "TARGET #1812",
+          "start_time": "7/15/2025 7:43 AM",
+          "end_time": "7/15/2025 7:58 AM",
+          "duration_minutes": 15.08,
+          "user": "Alek Erway",
+          "distance_meters": 31.195614322468003
+        }
+      ],
+      "has_gps_visit": true,
+      "has_order": true
+    }
+  ],
+  "gps_trips": [
+    {
+      "startMs": 1752578720736,
+      "endMs": 1752580769063,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Sweetwater Crossing Drive, 3.5 mi SSW Lakeway, Travis County, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 25253239,
+        "name": "7 ELEVEN #41166",
+        "address": "17000 SWEETWATER VILLAGE DRIVE, BEE CAVE, TX 78669"
+      },
+      "startCoordinates": {
+        "latitude": 30.20037956,
+        "longitude": -97.71581548
+      },
+      "endCoordinates": {
+        "latitude": 30.319686319,
+        "longitude": -98.0073574
+      },
+      "distanceMeters": 35764,
+      "fuelConsumedMl": 8015,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752583445038,
+      "endMs": 1752583935037,
+      "startLocation": "Sweetwater Crossing Drive, 3.5 mi SSW Lakeway, Travis County, TX",
+      "endLocation": "Ladera Boulevard, Bee Cave, TX",
+      "startAddress": {
+        "id": 25253239,
+        "name": "7 ELEVEN #41166",
+        "address": "17000 SWEETWATER VILLAGE DRIVE, BEE CAVE, TX 78669"
+      },
+      "endAddress": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "startCoordinates": {
+        "latitude": 30.3197045,
+        "longitude": -98.00735669
+      },
+      "endCoordinates": {
+        "latitude": 30.31640547,
+        "longitude": -97.95507485
+      },
+      "distanceMeters": 6151,
+      "fuelConsumedMl": 1143,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752587808045,
+      "endMs": 1752588192011,
+      "startLocation": "Ladera Boulevard, Bee Cave, TX",
+      "endLocation": "Lakeway, TX",
+      "startAddress": {
+        "id": 23570587,
+        "name": "TARGET #1812",
+        "address": "3702 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "endAddress": {
+        "id": 23570582,
+        "name": "RANDALL'S #1779",
+        "address": "2301 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.31636261,
+        "longitude": -97.95500805
+      },
+      "endCoordinates": {
+        "latitude": 30.3406422,
+        "longitude": -97.96662494
+      },
+      "distanceMeters": 3890,
+      "fuelConsumedMl": 775,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752590211048,
+      "endMs": 1752590290039,
+      "startLocation": "Lakeway, TX",
+      "endLocation": "RM 620, Bee Cave, TX",
+      "startAddress": {
+        "id": 23570582,
+        "name": "RANDALL'S #1779",
+        "address": "2301 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570438,
+        "name": "WALGREENS #7023",
+        "address": "2401 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "startCoordinates": {
+        "latitude": 30.34063641,
+        "longitude": -97.96661069
+      },
+      "endCoordinates": {
+        "latitude": 30.340204459,
+        "longitude": -97.9686098
+      },
+      "distanceMeters": 245,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752591032068,
+      "endMs": 1752591191022,
+      "startLocation": "RM 620, Bee Cave, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23570438,
+        "name": "WALGREENS #7023",
+        "address": "2401 RANCH ROAD 620 S, AUSTIN, TX 78738"
+      },
+      "endAddress": {
+        "id": 23571395,
+        "name": "KWIK CHEK #64",
+        "address": "2103 RANCH ROAD 620 S, LAKEWAY, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.34012773,
+        "longitude": -97.96858036
+      },
+      "endCoordinates": {
+        "latitude": 30.342898959,
+        "longitude": -97.966531309
+      },
+      "distanceMeters": 520,
+      "fuelConsumedMl": 93,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752592558115,
+      "endMs": 1752592788028,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23571395,
+        "name": "KWIK CHEK #64",
+        "address": "2103 RANCH ROAD 620 S, LAKEWAY, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570197,
+        "name": "METRO FOOD MART",
+        "address": "903 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.342979639,
+        "longitude": -97.96673044
+      },
+      "endCoordinates": {
+        "latitude": 30.35502689,
+        "longitude": -97.96015884
+      },
+      "distanceMeters": 1576,
+      "fuelConsumedMl": 485,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752593958037,
+      "endMs": 1752594553018,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "North Quinlan Park Road, Mesa North, TX",
+      "startAddress": {
+        "id": 23570197,
+        "name": "METRO FOOD MART",
+        "address": "903 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570986,
+        "name": "RANDALLS #2987",
+        "address": "5145 RANCH ROAD 620 N STE A, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.35500761,
+        "longitude": -97.96012002
+      },
+      "endCoordinates": {
+        "latitude": 30.38841347,
+        "longitude": -97.88322989
+      },
+      "distanceMeters": 11400,
+      "fuelConsumedMl": 2132,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752598112032,
+      "endMs": 1752598463044,
+      "startLocation": "North Quinlan Park Road, Mesa North, TX",
+      "endLocation": "RM 620, Austin, TX",
+      "startAddress": {
+        "id": 23570986,
+        "name": "RANDALLS #2987",
+        "address": "5145 RANCH ROAD 620 N STE A, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570643,
+        "name": "7 ELEVEN #36564",
+        "address": "7002 RANCH ROAD 620 N, AUSTIN, TX 78732"
+      },
+      "startCoordinates": {
+        "latitude": 30.38838319,
+        "longitude": -97.88324057
+      },
+      "endCoordinates": {
+        "latitude": 30.40329722,
+        "longitude": -97.85452767
+      },
+      "distanceMeters": 3917,
+      "fuelConsumedMl": 1160,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752600023025,
+      "endMs": 1752600509015,
+      "startLocation": "RM 620, Austin, TX",
+      "endLocation": "Hudson Bend Road, Hudson Bend, TX",
+      "startAddress": {
+        "id": 23570643,
+        "name": "7 ELEVEN #36564",
+        "address": "7002 RANCH ROAD 620 N, AUSTIN, TX 78732"
+      },
+      "endAddress": {
+        "id": 23570300,
+        "name": "7 ELEVEN #36559",
+        "address": "3636 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.40337749,
+        "longitude": -97.85452744
+      },
+      "endCoordinates": {
+        "latitude": 30.39822745,
+        "longitude": -97.92847283
+      },
+      "distanceMeters": 8414,
+      "fuelConsumedMl": 1504,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752604157063,
+      "endMs": 1752604488014,
+      "startLocation": "Hudson Bend Road, Hudson Bend, TX",
+      "endLocation": "RM 620, Lakeway, TX",
+      "startAddress": {
+        "id": 23570300,
+        "name": "7 ELEVEN #36559",
+        "address": "3636 RANCH ROAD 620 N, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570027,
+        "name": "CAVALIER FOOD MARKET",
+        "address": "509 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.39820105,
+        "longitude": -97.92847482
+      },
+      "endCoordinates": {
+        "latitude": 30.35930764,
+        "longitude": -97.95394703
+      },
+      "distanceMeters": 5232,
+      "fuelConsumedMl": 1340,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752606183201,
+      "endMs": 1752606450034,
+      "startLocation": "RM 620, Lakeway, TX",
+      "endLocation": "Lakeway Boulevard, Lakeway, TX",
+      "startAddress": {
+        "id": 23570027,
+        "name": "CAVALIER FOOD MARKET",
+        "address": "509 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570662,
+        "name": "LAKEWAY MARKETPLACE",
+        "address": "2114 LAKEWAY BLVD, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.35929898,
+        "longitude": -97.9539533
+      },
+      "endCoordinates": {
+        "latitude": 30.35792835,
+        "longitude": -97.97851125
+      },
+      "distanceMeters": 2864,
+      "fuelConsumedMl": 657,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752608733029,
+      "endMs": 1752608959049,
+      "startLocation": "Lakeway Boulevard, Lakeway, TX",
+      "endLocation": "Lohmans Crossing Road, Lakeway, TX",
+      "startAddress": {
+        "id": 23570662,
+        "name": "LAKEWAY MARKETPLACE",
+        "address": "2114 LAKEWAY BLVD, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 23570685,
+        "name": "CVS #0080",
+        "address": "2306 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "startCoordinates": {
+        "latitude": 30.35800837,
+        "longitude": -97.97843196
+      },
+      "endCoordinates": {
+        "latitude": 30.34125857,
+        "longitude": -97.96893422
+      },
+      "distanceMeters": 2364,
+      "fuelConsumedMl": 670,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752610473043,
+      "endMs": 1752612952017,
+      "startLocation": "Lohmans Crossing Road, Lakeway, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 23570685,
+        "name": "CVS #0080",
+        "address": "2306 RANCH ROAD 620 S, AUSTIN, TX 78734"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.34127164,
+        "longitude": -97.96892485
+      },
+      "endCoordinates": {
+        "latitude": 30.2006996,
+        "longitude": -97.71586125
+      },
+      "distanceMeters": 33463,
+      "fuelConsumedMl": 7150,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752613281199,
+      "endMs": 1752613335046,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.200653299,
+        "longitude": -97.71585999
+      },
+      "endCoordinates": {
+        "latitude": 30.200489509,
+        "longitude": -97.715935979
+      },
+      "distanceMeters": 32,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 52851554,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    },
+    {
+      "startMs": 1752614794026,
+      "endMs": 1752614841034,
+      "startLocation": "Flint Rock Loop, Austin, TX",
+      "endLocation": "Flint Rock Loop, Austin, TX",
+      "startAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "endAddress": {
+        "id": 107921550,
+        "name": "Austin Warehouse (AUS)",
+        "address": "6269 E Stassney Ln, Austin, TX 78744, USA"
+      },
+      "startCoordinates": {
+        "latitude": 30.20029431,
+        "longitude": -97.715936009
+      },
+      "endCoordinates": {
+        "latitude": 30.20052029,
+        "longitude": -97.71600981
+      },
+      "distanceMeters": 39,
+      "fuelConsumedMl": 0,
+      "tollMeters": 0,
+      "driverId": 0,
+      "codriverIds": [],
+      "startOdometer": 0,
+      "endOdometer": 0,
+      "assetIds": []
+    }
+  ],
+  "orders": [
+    {
+      "Time Clock Event ID": 54840671,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "CVS #0080",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 3:09 PM",
+      "End Time": "7/15/2025 3:12 PM",
+      "Minutes": 2.63,
+      "Latitude": 30.34146156630511,
+      "Longitude": -97.96889134691838,
+      "Time Updated": "7/15/2025 3:45 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 3:12 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54840670,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "CVS #0080",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 2:53 PM",
+      "End Time": "7/15/2025 3:09 PM",
+      "Minutes": 16.25,
+      "Latitude": 30.34146156630511,
+      "Longitude": -97.96889134691838,
+      "Time Updated": "7/15/2025 3:45 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 3:12 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54840076,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "LAKEWAY MARKETPLACE",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 2:40 PM",
+      "End Time": "7/15/2025 2:49 PM",
+      "Minutes": 9.0,
+      "Latitude": 30.35810947918379,
+      "Longitude": -97.9787570481974,
+      "Time Updated": "7/15/2025 3:10 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 2:49 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54840075,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "LAKEWAY MARKETPLACE",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 2:23 PM",
+      "End Time": "7/15/2025 2:39 PM",
+      "Minutes": 16.27,
+      "Latitude": 30.35791381730731,
+      "Longitude": -97.97849575066752,
+      "Time Updated": "7/15/2025 3:10 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 2:49 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54840074,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "LAKEWAY MARKETPLACE",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 2:07 PM",
+      "End Time": "7/15/2025 2:22 PM",
+      "Minutes": 15.05,
+      "Latitude": 30.35791381730731,
+      "Longitude": -97.97849575066752,
+      "Time Updated": "7/15/2025 3:10 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 2:49 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54838747,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "CAVALIER FOOD MARKET",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 1:59 PM",
+      "End Time": "7/15/2025 2:02 PM",
+      "Minutes": 3.38,
+      "Latitude": 30.359473089803,
+      "Longitude": -97.95402281107395,
+      "Time Updated": "7/15/2025 2:35 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 2:02 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54838746,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "CAVALIER FOOD MARKET",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 1:42 PM",
+      "End Time": "7/15/2025 1:57 PM",
+      "Minutes": 15.2,
+      "Latitude": 30.39805118941512,
+      "Longitude": -97.92861036998973,
+      "Time Updated": "7/15/2025 2:35 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 2:02 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54837528,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36559",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 1:27 PM",
+      "End Time": "7/15/2025 1:28 PM",
+      "Minutes": 1.12,
+      "Latitude": 30.39815487342923,
+      "Longitude": -97.9285716266352,
+      "Time Updated": "7/15/2025 2:00 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 1:28 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54837527,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36559",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 12:52 PM",
+      "End Time": "7/15/2025 1:27 PM",
+      "Minutes": 34.93,
+      "Latitude": 30.39822360503524,
+      "Longitude": -97.9285200779307,
+      "Time Updated": "7/15/2025 2:00 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 1:28 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54837526,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36559",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 12:29 PM",
+      "End Time": "7/15/2025 12:52 PM",
+      "Minutes": 22.6,
+      "Latitude": 30.39822360503524,
+      "Longitude": -97.9285200779307,
+      "Time Updated": "7/15/2025 2:00 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 1:28 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54834668,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36564",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 12:10 PM",
+      "End Time": "7/15/2025 12:16 PM",
+      "Minutes": 5.9,
+      "Latitude": 30.40336754740665,
+      "Longitude": -97.85469441347584,
+      "Time Updated": "7/15/2025 12:50 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 12:16 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54834667,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36564",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 11:54 AM",
+      "End Time": "7/15/2025 12:10 PM",
+      "Minutes": 16.37,
+      "Latitude": 30.3884011041656,
+      "Longitude": -97.8831752390581,
+      "Time Updated": "7/15/2025 12:50 PM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 12:16 PM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54832996,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36559",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 11:38 AM",
+      "End Time": "7/15/2025 11:39 AM",
+      "Minutes": 1.08,
+      "Latitude": 30.3884189157099,
+      "Longitude": -97.88321044305142,
+      "Time Updated": "7/15/2025 11:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 11:39 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54832911,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #36564",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 11:36 AM",
+      "End Time": "7/15/2025 11:37 AM",
+      "Minutes": 0.48,
+      "Latitude": 30.38841011471151,
+      "Longitude": -97.88320038476762,
+      "Time Updated": "7/15/2025 11:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 11:37 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54832868,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "RANDALLS #2987",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 11:29 AM",
+      "End Time": "7/15/2025 11:36 AM",
+      "Minutes": 7.0,
+      "Latitude": 30.38896752597888,
+      "Longitude": -97.88393633005234,
+      "Time Updated": "7/15/2025 11:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 11:36 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54832867,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "RANDALLS #2987",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 10:50 AM",
+      "End Time": "7/15/2025 11:29 AM",
+      "Minutes": 39.58,
+      "Latitude": 30.38842733952253,
+      "Longitude": -97.88319476889248,
+      "Time Updated": "7/15/2025 11:40 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 11:36 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54830682,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "METRO FOOD MART",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 10:35 AM",
+      "End Time": "7/15/2025 10:38 AM",
+      "Minutes": 2.8,
+      "Latitude": 30.35497973210211,
+      "Longitude": -97.96012965971414,
+      "Time Updated": "7/15/2025 11:05 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 10:38 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54830681,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "METRO FOOD MART",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 10:19 AM",
+      "End Time": "7/15/2025 10:35 AM",
+      "Minutes": 15.75,
+      "Latitude": 30.35497973210211,
+      "Longitude": -97.96012965971414,
+      "Time Updated": "7/15/2025 11:05 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 10:38 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54829789,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "KWIK CHEK #64",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 10:14 AM",
+      "End Time": "7/15/2025 10:15 AM",
+      "Minutes": 0.37,
+      "Latitude": 30.34275272632518,
+      "Longitude": -97.96690703764602,
+      "Time Updated": "7/15/2025 10:30 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 10:15 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54829788,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "KWIK CHEK #64",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 9:54 AM",
+      "End Time": "7/15/2025 10:14 AM",
+      "Minutes": 20.12,
+      "Latitude": 30.34275272632518,
+      "Longitude": -97.96690703764602,
+      "Time Updated": "7/15/2025 10:30 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 10:15 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54828858,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "WALGREENS #7023",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 9:35 AM",
+      "End Time": "7/15/2025 9:49 AM",
+      "Minutes": 14.15,
+      "Latitude": 30.34074605740566,
+      "Longitude": -97.9666963020418,
+      "Time Updated": "7/15/2025 9:59 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 9:49 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54828226,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "RANDALLS #2987",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 9:14 AM",
+      "End Time": "7/15/2025 9:14 AM",
+      "Minutes": 0.08,
+      "Latitude": 30.3407078236624,
+      "Longitude": -97.96670769350412,
+      "Time Updated": "7/15/2025 9:59 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 9:34 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54828221,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "RANDALL'S #1779",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 9:15 AM",
+      "End Time": "7/15/2025 9:34 AM",
+      "Minutes": 19.38,
+      "Latitude": 30.3407078236624,
+      "Longitude": -97.96670769350412,
+      "Time Updated": "7/15/2025 9:59 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 9:34 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54828220,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "RANDALL'S #1779",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 9:03 AM",
+      "End Time": "7/15/2025 9:13 AM",
+      "Minutes": 9.75,
+      "Latitude": 30.34074491358394,
+      "Longitude": -97.96667408207242,
+      "Time Updated": "7/15/2025 9:59 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 9:34 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54826806,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "TARGET #1812",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 8:25 AM",
+      "End Time": "7/15/2025 8:55 AM",
+      "Minutes": 30.17,
+      "Latitude": 30.3161431057661,
+      "Longitude": -97.95490111233477,
+      "Time Updated": "7/15/2025 9:29 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 8:56 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54826805,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "TARGET #1812",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 8:18 AM",
+      "End Time": "7/15/2025 8:25 AM",
+      "Minutes": 7.23,
+      "Latitude": 30.3161431057661,
+      "Longitude": -97.95490111233477,
+      "Time Updated": "7/15/2025 9:29 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 8:56 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54826803,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "TARGET #1812",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 7:43 AM",
+      "End Time": "7/15/2025 7:58 AM",
+      "Minutes": 15.08,
+      "Latitude": 30.31975417464378,
+      "Longitude": -98.00739494857676,
+      "Time Updated": "7/15/2025 9:29 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 8:56 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54824341,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #41166",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 7:39 AM",
+      "End Time": "7/15/2025 7:43 AM",
+      "Minutes": 3.38,
+      "Latitude": 30.3194787465062,
+      "Longitude": -98.00705825794576,
+      "Time Updated": "7/15/2025 7:49 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 7:43 AM",
+      "Created By": "aerway"
+    },
+    {
+      "Time Clock Event ID": 54824340,
+      "Time Clock Activity": "Order Entry",
+      "Time Clock Shift": 982347,
+      "Date": "7/15/2025",
+      "User": "Alek Erway",
+      "Customer Name": "7 ELEVEN #41166",
+      "Route": "600 Tue (2024)",
+      "Route Num": 600,
+      "Start Time": "7/15/2025 7:03 AM",
+      "End Time": "7/15/2025 7:39 AM",
+      "Minutes": 36.8,
+      "Latitude": 30.31968089754723,
+      "Longitude": -98.0073896796424,
+      "Time Updated": "7/15/2025 7:49 AM",
+      "Updated By": "API_1071",
+      "Time Created": "7/15/2025 7:43 AM",
+      "Created By": "aerway"
+    }
+  ],
+  "unscheduled_stops": [],
+  "alerts": [
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.316716,
+        "longitude": -97.954105
+      },
+      "description": "No GPS visit found for stop #1",
+      "details": {
+        "stop_id": 2859071,
+        "customer": "TARGET #1812"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.316716,
+        "longitude": -97.954105
+      },
+      "description": "No order entry found for stop #1",
+      "details": {
+        "stop_id": 2859071,
+        "customer": "TARGET #1812"
+      }
+    },
+    {
+      "type": "missed_stop",
+      "severity": "high",
+      "location": {
+        "latitude": 30.388927,
+        "longitude": -97.884142
+      },
+      "description": "No GPS visit found for stop #3",
+      "details": {
+        "stop_id": 2861968,
+        "customer": "RANDALLS #2987"
+      }
+    },
+    {
+      "type": "no_order",
+      "severity": "medium",
+      "location": {
+        "latitude": 30.3398,
+        "longitude": -97.968566
+      },
+      "description": "No order entry found for stop #9",
+      "details": {
+        "stop_id": 2859013,
+        "customer": "WALGREENS #7023"
+      }
+    }
+  ],
+  "config": {
+    "alert_radius_meters": 100.0,
+    "unscheduled_stop_threshold_meters": 150.0
+  }
+}
