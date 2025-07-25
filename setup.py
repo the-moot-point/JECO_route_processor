@@ -18,10 +18,10 @@ from setuptools import setup, find_packages
 # --------------------------------------------------------------------------- #
 PACKAGE_NAME = "jeco_route_processor"          # ← directory name on disk
 VERSION = "0.1.0"
-AUTHOR = "Your Name"
-AUTHOR_EMAIL = "you@example.com"
+AUTHOR = "Jonathan Norris"
+AUTHOR_EMAIL = "jnorris@jeco.com"
 DESCRIPTION = "JECO Route Processing tools"
-PYTHON_REQUIRES = ">=3.10"
+PYTHON_REQUIRES = ">=3.11"
 
 # Core/runtime dependencies (edit as required)
 INSTALL_REQUIRES = [
